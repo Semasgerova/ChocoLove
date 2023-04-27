@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+.header {
+    background: rgb(255,255,255);
+    // background: linear-gradient(0deg, rgba(255,255,255,0.5411414565826331) 0%, rgba(0,0,0,1) 79%);
+    .brand {
+        color: white;
+        width: 15%;
+        img {
+            width: 100%;
+        }
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        color: #c19f5f;
+    }
+
+    .link {
+        color: white;
+
+        span {
+            color: #c19f5f;
+        }
+    }
+
+
+    .icons {
+        width: 20%;
+
+        .icon {
+            color: #c19f5f;
+            cursor: pointer;
+        }
+    }
+
+    .navbar-toggler {
+        color: #c19f5f;
+
+    }
+
+}
+
+.home {
+    .swiper {
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            color: white;
+            font-size: 30px;
+        }
+
+        .swiper-button-prev:after {
+            margin-left: 300px;
+        }
+
+        .swiper-button-next:after {
+            margin-right: 300px;
+        }
+
+        .swp {
+            position: relative;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+
+            .text {
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Cormorant', serif;
+                .txt {
+                    margin-bottom: 70px;
+                    h1 {
+                        color: white;
+                        font-size: 70px;
+                        span {
+                            color: #c19f5f;
+                        }
+                    }
+
+                    p {
+                        color: #FFFFFF80;
+                        font-size: 20px;
+                    }
+                }
+                .btn {
+                    width: 220px;
+                    height: 70px;
+                    border-radius: 40px;
+                    background-color: rgb(0, 0, 0, 0.5);
+                    border: 1px solid #c19f5f;
+                    color: #c19f5f;
+                    i {
+                        font-size: 12px;
+                        margin-left: 5px;
+                    }
+
+                    &:hover {
+                        transition: .3s;
+                        color: white;
+                        border: 1px solid white;
+
+                        i {
+                            transition: .3s;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            display: none;
+        }
+    }
+    .aboutSec{
+        position: relative;
+        background-color: #0F0E0F;
+        background-image: url('http://crems.like-themes.com/wp-content/uploads/2020/07/section-about-bg.png');
+        background-size: 35%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        font-family: 'Cormorant', serif;
+        .top-img{
+          position: absolute;
+          top: -5%;
+        }
+        .bottom-img{
+            position: absolute;
+            bottom: -5%;
+          }
+        .img{
+            z-index: 111;
+            img{
+                width: 100%;
+            }
+        }
+        h3{
+            color: white;
+            font-size: 40px;
+            span{
+                color: #c19f5f;
+            }
+        }
+        p{
+            color: #FFFFFF80;
+            font-size: 18px;
+        }
+        h5{
+            color: white;
+            i{
+                color: #c19f5f;
+                font-size: 25px;
+            }
+            &:hover{
+                transition: .3s;
+                color: #c19f5f;
+                cursor: pointer;
+            }
+        }
+        .btn{
+            border: none;
+            background-color: transparent;
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #c19f5f;
+            i{
+                font-size: 10px;
+            }
+            &:hover{
+                i{
+                    transition: .3s;
+                    margin-left: 5px;
+                }
+            }
+        }
+      ul{
+        li{
+            .icon{
+                i{
+                    font-size: 40px;
+                    color: #c19f5f;
+                }
+            }
+        }
+      }
+       
+    }
+    .parallax{
+        background:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/parallax_02.jpg');
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cormorant', serif;
+        position: relative;
+        h1{
+            color: white;
+            font-size: 90px;
+            span{
+                color: #c19f5f;
+            }
+        }
+        .square{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #c19f5f;
+            animation: square 16s linear infinite;
+        }
+        @keyframes square {
+            0%   {transform: rotate(0deg);}
+            25%  {transform: rotate(90deg);}
+            50%  {transform: rotate(180deg);}
+            75%  {transform: rotate(270deg);}
+            100% {transform: rotate(360deg);}
+        }
+    }
+    .box{
+        height: 50vh;
+        background-color: #0F0E0F;
+    }
+}
+
+@media (max-width: 1409px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        h1{
+                            font-size: 60px;
+                        }
+                        p{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1209px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        h1{
+                            font-size: 50px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                    .btn{
+                        width: 200px;
+                        height: 60px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1007px){
+    .home{
+        .swiper{
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 20px;
+            }
+            .swiper-button-prev:after {
+                margin-left: 150px;
+            }
+    
+            .swiper-button-next:after {
+                margin-right: 150px;
+            }
+    
+            .swp{
+                .text{
+                    .txt{
+                        margin-bottom: 40px;
+                        h1{
+                            font-size: 40px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                    .btn{
+                        width: 160px;
+                        height: 50px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+   .home{
+    .aboutSec{
+        h3{
+            font-size: 25px;
+        }
+        p{
+            font-size: 13px;
+        }
+        h5{
+            font-size: 17px;
+            i{
+                font-size: 20px;
+            }
+        }
+        .btn{
+            font-size: 10px;
+            letter-spacing: 1px;
+            i{
+                font-size: 8px;
+            }
+        }
+      ul{
+        li{
+            .icon{
+                i{
+                    font-size: 30px;
+                    color: #c19f5f;
+                }
+            }
+        }
+      }
+       
+    }
+   }
+}
+
+@media (max-width: 925px){
+  .home{
+    .parallax{
+        h1{
+            font-size: 55px;
+        }
+        .square{
+            width: 250px;
+            height: 250px;
+        }
+     
+    }
+  }
+}
+
+@media (max-width: 805px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        h1{
+                            font-size: 30px;
+                        }
+                        p{
+                            font-size: 8px;
+                        }
+                    }
+                    .btn{
+                        width: 130px;
+                        height: 40px;
+                        font-size: 10px;
+                        i{
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .aboutSec{
+            background-size: 60%;
+        }
+    }
+}
+
+@media (max-width: 769px){
+    .home{
+        .aboutSec{
+            .top-img{
+                top: -3%;
+            }
+            .bottom-img{
+                bottom: -2%;
+            }
+        }
+    }
+}
+
+@media (max-width: 606px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        margin-bottom: 20px;
+                        h1{
+                            font-size: 23px;
+                        }
+                        p{
+                            font-size: 5px;
+                        }
+                    }
+                    .btn{
+                        width: 90px;
+                        height: 30px;
+                        font-size: 6px;
+                        i{
+                            font-size: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .parallax{
+            min-height: 300px; 
+            h1{
+                font-size: 35px;
+            }
+            .square{
+                width: 150px;
+                height: 150px;
+            }
+         
+        }
+    }
+}
+
+@media (max-width: 464px){
+    .home{
+        .swiper{
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 15px;
+            }
+            .swiper-button-prev:after {
+                margin-left: 100px;
+            }
+    
+            .swiper-button-next:after {
+                margin-right: 100px;
+            }
+    
+            .swp{
+                .text{
+                    .txt{
+                        margin-bottom: 20px;
+                        h1{
+                            font-size: 18px;
+                        }
+                        p{
+                            font-size: 5px;
+                        }
+                    }
+                    .btn{
+                        width: 70px;
+                        height: 20px;
+                        font-size: 4px;
+                        i{
+                            font-size: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 363px){
+    .home{
+        .swiper{
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 10px;
+            }
+            .swiper-button-prev:after {
+                margin-left: 20px;
+            }
+    
+            .swiper-button-next:after {
+                margin-right: 20px;
+            }
+    
+            .swp{
+                .text{
+                    .txt{
+                        margin-bottom: 10px;
+                        h1{
+                            font-size: 15px;
+                        }
+                        p{
+                            font-size: 3px;
+                        }
+                    }
+                    .btn{
+                        width: 70px;
+                        height: 20px;
+                        font-size: 4px;
+                        i{
+                            font-size: 3px;
+                        }
+                    }
+                }
+            }
+        }
+        .parallax{
+            min-height: 200px; 
+            h1{
+                font-size: 25px;
+            }
+            .square{
+                width: 100px;
+                height: 100px;
+            }
+         
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+    .header {
+        .canvas {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
