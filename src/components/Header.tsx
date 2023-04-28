@@ -3,16 +3,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { LinkContainer } from "react-router-bootstrap";
+import logo from "../photos/logo/ChocoLove-logos_whitee.png"
 
 
 const Header = () => {
   return (
     <div className="header">
-    <Navbar key="lg" expand="lg" className="my-3" fixed="top">
+    <Navbar key="lg" expand="lg" className="py-3 navbar" fixed="top">
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand className="brand">
-           ChocoLove
+           <img src={logo} alt="" />
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />

@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+    "title": "Truffle With Vanilla",
+    "price": 25.00,
+    "category": "Vanilla",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+  },
+  {
+    "id": 2,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+    "title": "Milk Chocolate With Peanuts",
+    "price": 42.49,
+    "category": "Milk",
+    "description": "Nullam laoreet arcu eu massa euismod, quis dictum massa sodales. Proin eget scelerisque dui. Phasellus id enim lobortis, porta orci at, viverra turpis. Phasellus et odio ac velit eleifend condimentum vel at purus. Ut lobortis sed felis vitae luctus."
+  },
+  {
+    "id": 3,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+    "title": "Pastry Chef Fantasy",
+    "price": 13.49,
+    "category": "Chef",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+  },
+  {
+    "id": 4,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+    "title": "Almond Dark Chocolate",
+    "price": 12.99,
+    "category": "Dark",
+    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+  },
+  {
+    "id": 5,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_01.jpg",
+    "title": "Rent of Equipment for Pastry Shops",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 6,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_02.jpg",
+    "title": "Secrets of Choosing Cocoa Powder",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },  
+  {
+    "id": 7,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_03.jpg",
+    "title": "The Evolution of Dark Chocolate",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  }, 
+  {
+    "id": 8,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_04.jpg",
+    "title": "The Most Expensive Sweets in Germany",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },  
+  {
+    "id": 9,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_05.jpg",
+    "title": "Truffle Sweets – a Treat for Kings",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 10,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_06.jpg",
+    "title": "Choice of Material for Forms",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },  
+  {
+    "id": 11,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_19.jpg",
+    "title": "Secrets of Choosing Fresh Bakery",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 12,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_21.jpg",
+    "title": "The Most Expensive Bakeries in Germany",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 13,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_20.jpg",
+    "title": "The Evolution of Modern Bread",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },  
+  {
+    "id": 14,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_22.jpg",
+    "title": "Rent of Equipment for Bakery Production",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 15,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_07.jpg",
+    "title": "Modern Types of Milk Chocolate",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 16,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_10.jpg",
+    "title": "Delicious Nut Candy Recipes",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 17,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_09.jpg",
+    "title": "Recipes for Making Fondant Fillings",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },  
+  {
+    "id": 18,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_08.jpg",
+    "title": "Basics of Storing Dark Chocolate",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 19,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_14.jpg",
+    "title": "Top 10 Coffee Restaurants Reviews",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 20,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_13.jpg",
+    "title": "Who is a Pastry Chef?",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },  
+  {
+    "id": 21,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_12.jpg",
+    "title": "Chocolate: The History of a Product",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 22,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_11.jpg",
+    "title": "Top Ten Pastry Shops in Europe",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  },
+  {
+    "id": 23,
+    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_17.jpg",
+    "title": "Rules for Serving Different Types of Chocolate",
+    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
+  }
+]
