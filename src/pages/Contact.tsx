@@ -1,13 +1,14 @@
 import { Button, Col, Row } from "react-bootstrap"
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import { LinkContainer } from "react-router-bootstrap";
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="main d-flex flex-column justify-content-center align-items-center h-100">
         <h1>Contacts</h1>
-        <p className='py-3'><span>Home</span> // Contact</p>
+        <p className='py-3'><LinkContainer to='/'><span>Home</span></LinkContainer> // Contact</p>
       </div>
       <div className="cards">
         <img src="http://crems.like-themes.com/wp-content/themes/crems/assets/images/grunge-dark-temp.png" alt="" />

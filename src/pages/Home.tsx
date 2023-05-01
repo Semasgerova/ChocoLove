@@ -5,13 +5,17 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation, Mousewheel, Keyboard} from "swiper";
-import { Button, Col, Container, Row } from "react-bootstrap";
-import { useContext } from "react";
+import { Button, Col, Container, Modal, Row } from "react-bootstrap";
+import { useContext, useState } from "react";
 import { ProductContext } from "../context/ProductContext";
 import { LinkContainer } from "react-router-bootstrap";
 
 const Home = () => {
   const [productItem] = useContext(ProductContext)
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <div className="home">
@@ -179,13 +183,16 @@ const Home = () => {
           <h1>Discover Sweet Delicious</h1>
         </div>
         <div className="cards">
-          <Row className="m-0 g-5">
+         <Container>
+         <Row className="m-0 g-5">
              {productItem.slice(0,4).map((item:any)=>{
               return <Col sm={12} md={6} lg={3} className="txt text-center">
                 <div className="box"> 
                   <div className="square"></div>
                   <div className="img"><img src={item.image} alt="" /></div>
+                  <LinkContainer to='/shop'>
                   <div className="button"><Button className="btn p-0 mt-4">GO TO SHOP <i className="fa-solid fa-arrow-right"></i></Button></div>
+                  </LinkContainer>
                 </div>
                 <h4>{item.title}</h4>
                 <p>{item.price}$</p>
@@ -193,17 +200,32 @@ const Home = () => {
               </Col>
              })}
           </Row>
+         </Container>
         </div>
-        <div className="button py-5 d-flex justify-content-center align-items-center">
+       <LinkContainer to='/shop'>
+       <div className="button py-5 d-flex justify-content-center align-items-center">
         <Button className="btn p-0 mt-4">ONLINE STORE <i className="fa-solid fa-arrow-right"></i></Button>
         </div>
+       </LinkContainer>
       </div>
       <div className="video d-flex justify-content-center align-items-center">
         <Container className="container d-flex justify-content-center align-items-center">
         <div className="box d-flex flex-column justify-content-center align-items-center">
           <h1 className="text-center">Watch our video</h1>
-          <Button className="btn"><i className="fa-solid fa-play"></i></Button>
+          <Button className="btn d-flex align-items-center justify-content-center" onClick={handleShow}><i className="fa-solid fa-play"></i></Button>
          
+      <Modal show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter"
+      centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+        <video controls style={{'width':'100%','height':'100%'}}>
+  <source src="https://www.youtube.com/watch?v=H-PxDQf-_Zg"  type="video/mp4"/>
+  
+</video>
+        </Modal.Body>
+      </Modal>
         </div>
         <div className="square"></div>
         </Container>
@@ -213,7 +235,7 @@ const Home = () => {
           <Col lg={6} className="img p-0 cocoa">
             <img src="http://crems.like-themes.com/wp-content/uploads/2019/06/sign-bg.jpg" alt="" />
           </Col>
-          <Col md={12} lg={6} className="img">
+          <Col md={12} lg={6} className="img p-0">
             <img src="http://crems.like-themes.com/wp-content/uploads/2020/07/cocoa-02.png" alt="" />
             <div className="text">
               <p>OUR MISSION</p>
@@ -224,6 +246,35 @@ const Home = () => {
           </Col>
         </Row>
        <div className="image"> <img src="http://crems.like-themes.com/wp-content/uploads/2020/07/sign-person.png" alt="" /></div>
+      </div>
+      <div className="gallery d-flex flex-column justify-content-center align-items-center py-5">
+         <div className="head text-center py-5">
+          <p>GALLERY</p>
+          <h1>“Our pastry chefs create sweets only <br /> with creativity and love”</h1>
+        </div>
+        <div className="boxes py-5">
+         <Container>
+         <Row className="g-5 m-0">
+          
+          {productItem.slice(23,27).map((item:any)=>{
+               return <Col sm={12} md={6} lg={3}>
+                <div className="box">
+                <div className="img">
+                  <img src={item.image} alt="" />
+                </div>
+                <div className="square"></div>
+                </div>
+               </Col>
+          })}
+       
+      </Row>
+         </Container>
+        </div>
+        <LinkContainer to="/about">
+            <Button className="btn d-flex justify-content-center align-items-center">
+               READ MORE <i className="fa-solid fa-arrow-right"></i>
+            </Button>
+        </LinkContainer>
       </div>
       <div className="testimonials">
         <div className="head text-center py-5">
@@ -265,6 +316,7 @@ const Home = () => {
         </SwiperSlide>
       </Swiper>
       </div>
+    
     </div>
   );
 };

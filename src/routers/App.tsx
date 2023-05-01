@@ -8,6 +8,7 @@ import Cart from '../pages/Cart'
 import Contact from '../pages/Contact'
 import Home from '../pages/Home'
 import NotFound from '../pages/NotFound'
+import ProductDetails from '../pages/ProductDetails'
 import Shop from '../pages/Shop'
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/shop' element={<Shop />}></Route>
+        <Route path='/shop/:url' element={<ProductDetails/>}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/account' element={<Account />}></Route>

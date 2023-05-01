@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { LinkContainer } from "react-router-bootstrap";
 import { ProductContext } from "../context/ProductContext";
 
 const Blog = () => {
@@ -7,7 +8,7 @@ const Blog = () => {
     <div className="blog">
        <div className="main d-flex flex-column justify-content-center align-items-center h-100">
         <h1>Blog</h1>
-        <p className='py-3'><span>Home</span> // Blog</p>
+        <p className='py-3'><LinkContainer to='/'><span>Home</span></LinkContainer> // Blog</p>
       </div>
       <div className="bottom container">
       <div className="image"><img src="http://crems.like-themes.com/wp-content/themes/crems/assets/images/grunge-dark-temp.png" alt="" /></div>
