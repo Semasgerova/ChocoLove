@@ -8,15 +8,15 @@ import { Autoplay, Pagination, Navigation, Mousewheel, Keyboard} from "swiper";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { useContext } from "react";
 import { ProductContext } from "../context/ProductContext";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Home = () => {
   const [productItem] = useContext(ProductContext)
+
   return (
     <div className="home">
       <div className="swiper">
         <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
           autoplay={{
             delay: 5500,
             disableOnInteraction: false,
@@ -33,7 +33,7 @@ const Home = () => {
               src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-01.jpg"
               alt=""
             />
-            <div className="text text-center">
+            <div className="text text-center d-flex flex-column justify-content-center align-items-center">
               <div className="txt">
                 <h1>
                   Author's Delicious Sweets <br />
@@ -45,9 +45,11 @@ const Home = () => {
                   magna. Etiam neque orci, convallis.
                 </p>
               </div>
-              <Button className="btn">
-                READ MORE <i className="fa-solid fa-arrow-right"></i>
-              </Button>
+              <LinkContainer to="/about">
+                <Button className="btn d-flex justify-content-center align-items-center">
+                   READ MORE <i className="fa-solid fa-arrow-right"></i>
+                </Button>
+              </LinkContainer>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swp">
@@ -55,7 +57,7 @@ const Home = () => {
               src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-02.jpg"
               alt=""
             />
-            <div className="text text-center">
+            <div className="text text-center d-flex flex-column justify-content-center align-items-center">
               <div className="txt">
                 <h1>
                   Author's Delicious Sweets <br />
@@ -67,9 +69,11 @@ const Home = () => {
                   magna. Etiam neque orci, convallis.
                 </p>
               </div>
-              <Button className="btn">
-                READ MORE <i className="fa-solid fa-arrow-right"></i>
-              </Button>
+              <LinkContainer to="/about">
+                <Button className="btn d-flex justify-content-center align-items-center">
+                   READ MORE <i className="fa-solid fa-arrow-right"></i>
+                </Button>
+              </LinkContainer>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swp">
@@ -77,7 +81,7 @@ const Home = () => {
               src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-03.jpg"
               alt=""
             />
-            <div className="text text-center">
+            <div className="text text-center d-flex flex-column justify-content-center align-items-center">
               <div className="txt">
                 <h1>
                   Author's Delicious Sweets <br />
@@ -89,9 +93,11 @@ const Home = () => {
                   magna. Etiam neque orci, convallis.
                 </p>
               </div>
-              <Button className="btn">
-                READ MORE <i className="fa-solid fa-arrow-right"></i>
-              </Button>
+              <LinkContainer to="/about">
+                <Button className="btn d-flex justify-content-center align-items-center">
+                   READ MORE <i className="fa-solid fa-arrow-right"></i>
+                </Button>
+              </LinkContainer>
             </div>
           </SwiperSlide>
           <SwiperSlide className="swp">
@@ -99,7 +105,7 @@ const Home = () => {
               src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-04.jpg"
               alt=""
             />
-            <div className="text text-center">
+            <div className="text text-center d-flex flex-column justify-content-center align-items-center">
               <div className="txt">
                 <h1>
                   Author's Delicious Sweets <br />
@@ -111,12 +117,15 @@ const Home = () => {
                   magna. Etiam neque orci, convallis.
                 </p>
               </div>
-              <Button className="btn">
-                READ MORE <i className="fa-solid fa-arrow-right"></i>
-              </Button>
+              <LinkContainer to="/about">
+                <Button className="btn d-flex justify-content-center align-items-center">
+                   READ MORE <i className="fa-solid fa-arrow-right"></i>
+                </Button>
+              </LinkContainer>
             </div>
           </SwiperSlide>
         </Swiper>
+       
       </div>
       <div className="aboutSec">
         <div className="img top-img"><img src="http://crems.like-themes.com/wp-content/uploads/2020/07/grunge-dark-temp.png" alt="" /></div>
@@ -164,6 +173,7 @@ const Home = () => {
         <div className="square"></div>
       </div>
       <div className="store">
+      <div className="top-img"><img src="http://crems.like-themes.com/wp-content/uploads/2020/07/grunge-dark-temp.png" alt="" /></div>
         <div className="text text-center py-5">
           <p>ONLINE STORE</p>
           <h1>Discover Sweet Delicious</h1>
@@ -193,6 +203,7 @@ const Home = () => {
         <div className="box d-flex flex-column justify-content-center align-items-center">
           <h1 className="text-center">Watch our video</h1>
           <Button className="btn"><i className="fa-solid fa-play"></i></Button>
+         
         </div>
         <div className="square"></div>
         </Container>
