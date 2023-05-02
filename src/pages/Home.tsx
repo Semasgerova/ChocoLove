@@ -9,6 +9,7 @@ import { Button, Col, Container, Modal, Row } from "react-bootstrap";
 import { useContext, useState } from "react";
 import { ProductContext } from "../context/ProductContext";
 import { LinkContainer } from "react-router-bootstrap";
+import CountUp from 'react-countup';
 
 const Home = () => {
   const [productItem] = useContext(ProductContext)
@@ -230,6 +231,28 @@ const Home = () => {
         <div className="square"></div>
         </Container>
       </div>
+      <div className="countUp pb-5">
+        <Container>
+        <Row className="m-0">
+          <Col sm={12} md={6} lg={3}>
+            <h1><CountUp end={230} duration={5}></CountUp></h1>
+            <p>Pastry Shops</p>
+          </Col>
+          <Col sm={12} md={6} lg={3}>
+            <h1><CountUp end={26} duration={5}></CountUp></h1>
+            <p>Candies Collections</p>
+          </Col>
+          <Col sm={12} md={6} lg={3}>
+            <h1><CountUp end={14} duration={5}></CountUp></h1>
+            <p>Years of Experience</p>
+          </Col>
+          <Col sm={12} md={6} lg={3}>
+            <h1><CountUp end={80} duration={5}></CountUp></h1>
+            <p>Creative Pastry Chefs</p>
+          </Col>
+        </Row>
+        </Container>
+      </div>
       <div className="chef">
         <Row className="m-0">
           <Col lg={6} className="img p-0 cocoa">
@@ -248,7 +271,7 @@ const Home = () => {
        <div className="image"> <img src="http://crems.like-themes.com/wp-content/uploads/2020/07/sign-person.png" alt="" /></div>
       </div>
       <div className="gallery d-flex flex-column justify-content-center align-items-center py-5">
-         <div className="head text-center py-5">
+         <div className="head text-center">
           <p>GALLERY</p>
           <h1>“Our pastry chefs create sweets only <br /> with creativity and love”</h1>
         </div>
@@ -276,7 +299,7 @@ const Home = () => {
             </Button>
         </LinkContainer>
       </div>
-      <div className="testimonials">
+      <div className="testimonials py-5">
         <div className="head text-center py-5">
           <p>TESTIMONIALS</p>
           <h1>What our Buyers Say</h1>

@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap"
+import { LinkContainer } from "react-router-bootstrap"
 
 
 const NotFound = () => {
@@ -15,7 +16,7 @@ const NotFound = () => {
             <h1>Oops! Page Not Found</h1>
             <p>The page you are looking for was moved, removed, <br /> renamed or might never existed.</p>
             <div className="button py-5 d-flex justify-content-center align-items-center">
-        <Button className="btn p-0 mt-4">HOME PAGE</Button>
+        <LinkContainer to='/'><Button className="btn p-0 mt-4 d-flex justify-content-center align-items-center">HOME PAGE</Button></LinkContainer>
         </div>
         </div>
       </div>
