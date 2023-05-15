@@ -1,0 +1,76 @@
+.error{
+    background-color: #0F0E0F;
+    .main{
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_02.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cormorant', serif;
+    color: white;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        span{
+            color: #c19f5f;
+            &:hover{
+                transition: .3s;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    }
+    .bottom{
+        padding: 50px;
+       .image{
+        img{
+            width: 100%;
+            margin-top: -10%;
+        }
+       }
+       .box{
+        img{
+            width: 30%;
+            animation: img 6s linear infinite;
+        }
+        @keyframes img {
+            0%   {transform: rotate(0deg);}
+            25%  {transform: rotate(90deg);}
+            50%  {transform: rotate(180deg);}
+            75%  {transform: rotate(270deg);}
+            100% {transform: rotate(360deg);}
+        
+        }
+        h1{
+            color: #c19f5f;
+            font-family: 'Cormorant', serif;
+            font-size: 50px;
+        }
+        p{
+            color: #FFFFFF80;
+        }
+        .button{
+            .btn {
+                width: 220px;
+                height: 70px;
+                border-radius: 40px;
+                background-color: rgb(0, 0, 0, 0.5);
+                border: 1px solid #c19f5f;
+                color: #c19f5f;
+                &:hover {
+                    transition: .3s;
+                    color: white;
+                    border: 1px solid white;
+                }
+            }
+        }
+       }
+    }
+}

@@ -1,0 +1,595 @@
+
+@media (max-width: 1409px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        h1{
+                            font-size: 60px;
+                        }
+                        p{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+        .chef{
+           .img{
+            .text{
+                left: 30%;
+            }
+           }
+        }
+    }
+}
+@media (max-width: 1209px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        h1{
+                            font-size: 50px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                    .btn{
+                        width: 200px;
+                        height: 60px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .store{
+            .top-img{
+                img{
+                   top: -3%;
+                }
+            }
+        }
+        .chef{
+            .image{
+                left: 24%;
+            }
+            .img{
+             .text{
+                 h1{
+                    font-size: 37px;
+                 }
+             }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            img{
+                margin-top: -13%;
+            }
+        }
+    }
+}
+@media (max-width: 1209px){
+    .home{
+        .store{
+            .cards{
+                .txt{
+                    .box{
+                        .button{
+                            .btn{
+                                left: 19%;
+                                width: 100px;
+                                height: 30px;
+                                font-size: 7px;
+                                i{
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1007px){
+    .home{
+        .swiper{
+            .swiper-button-next:after,
+            .swiper-button-prev:after {
+                font-size: 20px;
+            }
+            .swiper-button-prev:after {
+                margin-left: 150px;
+            }
+    
+            .swiper-button-next:after {
+                margin-right: 150px;
+            }
+    
+            .swp{
+                .text{
+                    .txt{
+                        margin-bottom: 30px;
+                        h1{
+                            font-size: 45px;
+                        }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                    .btn{
+                        width: 160px;
+                        height: 50px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            img{
+                margin-top: -15%;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .header{
+        .navbar{
+         .brand {
+             width: 27%;
+             img {
+                 width: 100%;
+             }
+         }
+        }
+     }
+   .home{
+    .aboutSec{
+        h3{
+            font-size: 25px;
+        }
+        p{
+            font-size: 13px;
+        }
+        h5{
+            font-size: 17px;
+            i{
+                font-size: 20px;
+            }
+        }
+        .btn{
+            font-size: 10px;
+            letter-spacing: 1px;
+            i{
+                font-size: 8px;
+            }
+        }
+      ul{
+        li{
+            .icon{
+                i{
+                    font-size: 30px;
+                    color: #c19f5f;
+                }
+            }
+        }
+      }
+       
+    }
+    .store{
+        .top-img{
+            img{
+               top: -1%;
+            }
+        }
+        .cards{
+            .txt{
+                .box{
+                    .button{
+                        .btn{
+                            left: 22%;
+                            width: 170px;
+                            height: 50px;
+                            font-size: 10px;
+                            i{
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .chef{
+        .cocoa{
+            display: none;
+        }
+        .image{
+            top: 30%;
+        }
+     }
+   }
+}
+
+@media (max-width: 925px){
+  .home{
+    .parallax{
+        h1{
+            font-size: 55px;
+        }
+        .square{
+            width: 250px;
+            height: 250px;
+        }
+     
+    }
+  }
+}
+
+@media (max-width: 805px){
+    .home{
+        .aboutSec{
+            background-size: 60%;
+        }
+        .chef{
+            .image{
+                top: 40%;
+            }
+         }
+    }
+}
+
+@media (max-width: 769px){
+    .header{
+        .navbar{
+         .brand {
+             width: 32%;
+             img {
+                 width: 100%;
+             }
+         }
+        }
+     }
+    .home{
+        .aboutSec{
+             
+            .top-img{
+                top: -3%;
+            }
+            .bottom-img{
+                bottom: -2%;
+                
+            }
+        }
+        .store{
+            .top-img{
+                img{
+                   margin-top: 2%;
+                }
+            }
+            .cards{
+                .mySwiper{
+                    .box{
+                        .button{
+                            .btn{
+                                left: 26%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .testimonials{
+            .swiper{
+                .swiper-button-prev:after {
+                   display: none;
+                }      
+                .swiper-button-next:after {
+                    display: none;
+                }
+                .swiper-slide {
+                    .box{
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                }
+              
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            img{
+                margin-top: -18%;
+            }
+        }
+    }
+}
+
+@media (max-width: 606px){
+    .home{
+        .swiper{
+            .swiper-button-prev:after {
+                display: none;
+            }
+    
+            .swiper-button-next:after {
+                display: none;
+            }
+    
+            .swp{
+                .text{
+                    top: 53%;
+                    // left: 30%;
+                    width: 100%;
+                    .txt{
+                       h1{
+                        font-size: 39px;
+                       }
+                        p{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        .parallax{
+            min-height: 300px; 
+            h1{
+                font-size: 35px;
+            }
+            .square{
+                width: 150px;
+                height: 150px;
+            }
+         
+        }
+        .chef{
+            .image{
+                display: none;
+            }
+            .img{
+                .text{
+                    p{
+                        font-size: 12px;
+                    }
+                    h1{
+                        font-size: 32px;
+                    }
+                    h5{
+                        font-size: 20px;
+                        margin-top: 30px;
+                    }
+                    h6{
+                        font-size: 10px;
+                    }
+                }
+            }
+         }
+         .testimonials{
+            .swiper{
+                .swiper-slide {
+                    .box{
+                        width: 90%;
+                        height: 60vh;
+                        p{
+                            font-size: 15px;
+                        }
+                        .icon{
+                            i{
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+              
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            img{
+                margin-top: -23%;
+            }
+        }
+    }
+}
+
+@media (max-width: 517px){
+    .shop{
+        .bottom{
+            img{
+                margin-top: -27%;
+            }
+        }
+    }
+}
+
+@media (max-width: 464px){
+    .header{
+        .navbar{
+         .brand {
+             width: 38%;
+             img {
+                 width: 100%;
+             }
+         }
+        }
+     }
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    .txt{
+                        margin-bottom: 10px;
+                        h1{
+                            font-size: 35px;
+                        }
+                        p{
+                            font-size: 10px;
+                        }
+                    }
+                    .btn{
+                        width: 100px;
+                        height: 30px;
+                        font-size: 7px;
+                        i{
+                            font-size: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .store{
+            .cards{
+                .mySwiper{
+                    .box{
+                        .button{
+                            .btn{
+                                left: 25%;
+                                width: 100px;
+                                height: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .chef{
+            .img{
+                .text{
+                    h1{
+                        font-size: 26px;
+                    }
+                    h5{
+                        margin-top: 20px;
+                    }
+                }
+            }
+         }
+    }
+    .shop{
+        .main{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 421px){
+    .home{
+        .store{
+            .top-img{
+                img{
+                   margin-top: 3%;
+                }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            img{
+                margin-top: -32%;
+            }
+        }
+    }
+}
+
+@media (max-width: 404px){
+    .home{
+        .aboutSec{
+            .top-img{
+                top: -2%;
+            }
+            .bottom-img{
+                bottom: -2%;
+            }
+        }
+    }
+}
+
+@media (max-width: 363px){
+    .home{
+        .swiper{
+            .swp{
+                .text{
+                    width: 80%;
+                }
+            }
+        }
+        .parallax{
+            min-height: 200px; 
+            h1{
+                font-size: 25px;
+            }
+            .square{
+                width: 100px;
+                height: 100px;
+            }
+         
+        }
+        .store{
+            .text{
+                h1{
+                    font-size: 40px;
+                }
+            }
+            .button{
+                .btn{
+                    width: 170px;
+                    height: 50px;
+                }
+            }
+        }
+        .chef{
+            .image{
+                display: none;
+            }
+            .img{
+                .text{
+                    p{
+                        font-size: 12px;
+                    }
+                    h1{
+                        font-size: 32px;
+                    }
+                    h5{
+                        font-size: 20px;
+                        margin-top: 30px;
+                    }
+                    h6{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            img{
+                margin-top: -36%;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 992px) {
+    .header {
+        .canvas {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

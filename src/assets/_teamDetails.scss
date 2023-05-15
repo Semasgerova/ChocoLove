@@ -1,0 +1,51 @@
+.teamDetails{
+    background-color: rgb(15, 14, 15);
+    .main{
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cormorant', serif;
+    color: white;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        span{
+            color: #c19f5f;
+            &:hover{
+                transition: .3s;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    }
+    .bottom{
+        font-family: 'Cormorant', serif;
+        .top{
+            img{
+                width: 100%;
+                margin-top: -3%;
+            }
+        }
+        h1{
+            color: #c19f5f;
+        }
+        h4{
+            color: #c19f5f;
+        }
+        p{
+            color: #FFFFFF80;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { Button } from "react-bootstrap";
 import { useParams } from "react-router"
 import { LinkContainer } from "react-router-bootstrap";
+import { toast } from "react-toastify";
+import { useCart } from "react-use-cart";
 import { ProductContext } from "../context/ProductContext";
 
 const ProductDetails = () => {
@@ -9,6 +11,21 @@ const ProductDetails = () => {
   const [productItem] = useContext(ProductContext)
 
   const productdetails = productItem.find((p:any)=>p.id == url)
+
+  const notify = () =>
+  toast.success("Added products", {
+    position: "bottom-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+  });
+const { addItem } = useCart();
+
+
   return (
     <div className="productDetails">
        <div className="main d-flex flex-column justify-content-center align-items-center h-100">
@@ -23,11 +40,11 @@ const ProductDetails = () => {
                     </div>
                     <div className="col-lg-6">
                         <h6 className="display-5 fw-bold lh-1 mb-3">${productdetails.price}</h6>
-                        <p className="lead">{productdetails.description.slice(0,150)}...</p>
+                        <p className="lead">{productdetails.description.substring(0,150)}...</p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                           
                            
-                  <div className="button"><Button className="btn p-0 mt-4">ADD TO CART <i className="fa-solid fa-arrow-right"></i></Button></div>
+                  <div className="button"><Button className="btn p-0 mt-4"  onClick={()=>{addItem(productdetails);notify()}}>ADD TO CART <i className="fa-solid fa-arrow-right"></i></Button></div>
                   
                         </div>
                     </div>

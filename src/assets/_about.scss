@@ -1,0 +1,276 @@
+.about{
+    background-color: #0F0E0F;
+    font-family: 'Cormorant', serif;
+    .main{
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5)
+      ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_03.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cormorant', serif;
+    color: white;
+    h1{
+        font-size: 50px;
+    }
+    p{
+        span{
+            color: #c19f5f;
+            &:hover{
+                transition: .3s;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    }
+    .sweet{
+        .img{
+            img{
+                width: 100%;
+                margin-top: -10%;
+            }
+        }
+        h1{
+            color: white;
+            span{
+                color: #c19f5f;
+            }
+        }
+        p{
+            color: #FFFFFF80;
+            font-size: 17px;
+        }
+        h5{
+            color: white;
+            i{
+                color: #c19f5f;
+                font-size: 25px;
+            }
+            &:hover{
+                transition: .3s;
+                color: #c19f5f;
+                cursor: pointer;
+            }
+        }
+        .btn {
+            width: 220px;
+            height: 70px;
+            border-radius: 40px;
+            background-color: transparent;
+            border: 1px solid #c19f5f;
+            color: #c19f5f;
+            i {
+                font-size: 12px;
+                margin-left: 5px;
+            }
+
+            &:hover {
+                transition: .3s;
+                color: white;
+                border: 1px solid white;
+
+                i {
+                    transition: .3s;
+                    margin-left: 10px;
+                }
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .cards{
+        position: relative;
+        .icon{
+            i{
+                font-size: 40px;
+                color: #c19f5f;
+            }
+        }
+        .text{
+            h5{
+                color: white;
+            }
+            p{
+                color: #FFFFFF80;
+            }
+        }
+        img{
+            position: absolute;
+            width: 100%;
+            bottom: -15%;
+            z-index: 111;
+        }
+    }
+    .parallax{
+        background:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url('http://crems.like-themes.com/wp-content/uploads/2020/07/parallax_04.jpg');
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cormorant', serif;
+        position: relative;
+        h1{
+            color: white;
+            font-size: 90px;
+            span{
+                color: #c19f5f;
+            }
+        }
+        .square{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #c19f5f;
+            animation: square 16s linear infinite;
+        }
+        @keyframes square {
+            0%   {transform: rotate(0deg);}
+            25%  {transform: rotate(90deg);}
+            50%  {transform: rotate(180deg);}
+            75%  {transform: rotate(270deg);}
+            100% {transform: rotate(360deg);}
+        }
+    }
+    .countUp{
+        background-color: #0F0E0F;
+        font-family: 'Cormorant', serif;
+        position: relative;
+        .img{
+            img{
+                width: 100%;
+               position: absolute;
+               top: -10%;
+            }
+        }
+        h1{
+            text-align: center;
+            color: #c19f5f;
+            font-size: 90px;
+        }
+        p{
+            text-align: center;
+            color: #FFFFFF80;
+            font-size: 22px;
+        }
+    }
+    .video{
+        min-height: 600px; 
+        background-color: #0F0E0F;
+        .container{
+            background:  linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/video-bg.jpg');
+          min-height: 400px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cormorant', serif;
+        position: relative;
+        .box{
+            h1{
+                color: white;
+                font-size: 90px;
+                span{
+                    color: #c19f5f;
+                }
+            }
+            .modal-body{
+                background-color: #0F0E0F;
+            }
+            .btn{
+                background-color: transparent;
+                padding: 30px 35px;
+                border-radius: 50%;
+                border: 1px solid #c19f5f;
+                i{
+                    color: #c19f5f;
+                    font-size: 20px;
+                }
+                &:hover{
+                   
+                    border: 1px solid white;
+                    i{
+                        transition: .3s;
+                        color: white;
+                    }
+                }
+                
+            }
+        }
+        }
+    }
+    .team{
+        .head{
+            p{
+                color: #c19f5f;
+                letter-spacing: 2px;
+            }
+            h1{
+                color: white;
+            }
+        }
+        .teams{
+           .box{
+            .img{
+                overflow: hidden;
+                position: relative;
+                img{
+                    width: 100%;
+                    transition: .3s;
+                    cursor: pointer;
+                }
+               
+                &:hover{
+                    img{
+                        transform: scale(1.1) rotate(3deg);
+                    }
+                }
+            }
+        
+            &:hover{
+                 .img{
+                    filter: blur(3px);
+                    &:hover{
+                        filter: blur(0px);
+                    }
+                 }
+                 
+            }
+           }
+        }
+        .btn {
+            width: 220px;
+            height: 70px;
+            border-radius: 40px;
+            background-color: rgb(0, 0, 0, 0.5);
+            border: 1px solid #c19f5f;
+            color: #c19f5f;
+            i {
+                font-size: 12px;
+                margin-left: 5px;
+            }
+
+            &:hover {
+                transition: .3s;
+                color: white;
+                border: 1px solid white;
+
+                i {
+                    transition: .3s;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

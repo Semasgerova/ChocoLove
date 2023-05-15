@@ -1,0 +1,40 @@
+.header {
+    .navbar{
+     background: rgb(0,0,0);
+     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(6,6,6,0.9360994397759104) 45%);
+     z-index: 120;
+     .brand {
+         width: 15%;
+         img {
+             width: 100%;
+         }
+     }
+ 
+     .navbar-nav .nav-link.active,
+     .navbar-nav .show>.nav-link {
+         color: #c19f5f;
+     }
+ 
+     .link {
+         color: white;
+ 
+         span {
+             color: #c19f5f;
+         }
+     }
+ 
+ 
+     .icons {
+         width: 20%;
+ 
+         .icon {
+             color: #c19f5f;
+             cursor: pointer;
+         }
+     .navbar-toggler {
+         color: #c19f5f;
+ 
+     }
+ }
+ }
+ }

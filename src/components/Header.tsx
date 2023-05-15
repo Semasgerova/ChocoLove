@@ -3,10 +3,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { LinkContainer } from "react-router-bootstrap";
+import { useCart } from "react-use-cart";
 import logo from "../photos/logo/ChocoLove-logos_whitee.png"
+import UserButton from "./UserButton";
 
 
 const Header = () => {
+  const {totalItems} = useCart();
   return (
     <div className="header">
     <Navbar key="lg" expand="lg" className="py-3 navbar" fixed="top">
@@ -59,18 +62,23 @@ const Header = () => {
             </Nav>
             <div className="icons">
                 <div className="d-flex justify-content-end">
+                <LinkContainer to='/search'>
                 <div className="icon">
-                <i className="fa-solid fa-magnifying-glass"></i>
+                   <i className="fa-solid fa-magnifying-glass"></i>
+                </div>
+                </LinkContainer>
+              <div className="icon px-4">
+                <UserButton/>
               </div>
               
-              <LinkContainer to='/account'>
-              <div className="icon px-4">
-                <i className="fa-regular fa-user"></i>
-              </div>
-              </LinkContainer>
               <LinkContainer to='/cart'>
               <div className="icon">
-                <i className="fa-solid fa-bag-shopping"></i>
+                <i className="fa-solid fa-bag-shopping"></i> {totalItems}
+              </div>
+              </LinkContainer>
+              <LinkContainer to='/whislist'>
+              <div className="icon ps-4">
+              <i className="fa-regular fa-heart"></i>
               </div>
               </LinkContainer>
                 </div>

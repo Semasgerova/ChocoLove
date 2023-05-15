@@ -1,0 +1,78 @@
+.footer{
+    background-color: #0F0E0F;
+    background-image: url('http://crems.like-themes.com/wp-content/uploads/2019/06/footer-bg-2.png');
+    background-repeat: no-repeat;
+    padding-top: 100px;
+   .img{
+    width: 70%;
+      img{
+        width: 100%;
+      }
+   }
+   p{
+    color: rgba(255,255,255,.75);
+    width: 80%;
+   }
+   .icons{
+    width: 50%;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            color: #c19f5f;
+            list-style: none;
+            &:hover{
+                transition: .3s;
+                color: rgba(255,255,255,.75);
+                cursor: pointer;
+            }
+        }
+    }
+   }
+   h1{
+    font-family: 'Cormorant', serif;
+    color: #c19f5f;
+   }
+   ul{
+    li{
+        .img{
+            width: 20%;
+            img{
+                width: 100%;
+            }
+        }
+        .icon{
+            i{
+                color: #c19f5f;
+                font-size: 20px
+            }
+        }
+        .txt{
+            h6{
+                color: #c19f5f;
+                font-family: 'Cormorant', serif;
+            }
+            p{
+                width: 100%;
+                &:hover{
+                    transition: .3s;
+                    color: #c19f5f;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+   }
+   .bottom{
+    p{
+        color: white;
+        span{
+            color: #c19f5f;
+            cursor: pointer;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+   }
+}
