@@ -1,16 +1,15 @@
 import { useContext } from "react";
 import { Col, Row } from "react-bootstrap";
 import { LangContext } from "../context/LangContext";
-import logo from "../photos/logo/ChocoLove-logos_whitee.png";
 
 const Footer = () => {
-  const [lang,setLang] = useContext(LangContext);
+  const [lang] = useContext(LangContext);
   return (
     <div className="footer">
       <Row className="m-0 g-5">
         <Col sm={12} md={4} className="text">
           <div className="img">
-            <img src={logo} alt="" />
+            <img src="https://github.com/Semasgerova/images/blob/main/ChocoLove-logos_whitee%20.png?raw=true" alt="" />
           </div>
           {lang==="az"? <p>
           Sevimli şirniyyatlarınızdan bəzilərini hazırlayan şokoladlarımıza baxın.

@@ -505,7 +505,7 @@ const Shop = () => {
                         />
                         <br /> <span>{value}$</span>
                       </div>
-                      <div className="clear mt-5">
+                      <div className="clear">
                         {lang === "az" ? (
                           <div
                             className="btn d-flex align-items-center justify-content-center"

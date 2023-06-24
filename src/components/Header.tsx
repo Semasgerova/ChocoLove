@@ -6,7 +6,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { LinkContainer } from "react-router-bootstrap";
 import { ThemeContext } from "../context/ThemeContext";
-import logo from "../photos/logo/ChocoLove-logos_whitee.png";
 import UserButton from "./UserButton";
 import { LangContext } from "../context/LangContext";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -58,7 +57,7 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand className="brand">
-              <img src={logo} alt="" />
+              <img src="https://github.com/Semasgerova/images/blob/main/ChocoLove-logos_whitee%20.png?raw=true" alt="" />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />

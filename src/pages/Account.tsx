@@ -11,8 +11,8 @@ import 'sweetalert2/src/sweetalert2.scss'
 const user =[
   {
     name:"Sema",
-    email: "sema01@gmail.com",
-    pass: "2001s",
+    email: "sema@gmail.com",
+    pass: "sema",
   },
   {
     name:"User",
