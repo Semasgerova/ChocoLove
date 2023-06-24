@@ -1,4 +1,3 @@
-
 @media (max-width: 1409px){
     .home{
         .swiper{
@@ -23,7 +22,9 @@
            }
         }
     }
+   
 }
+
 @media (max-width: 1209px){
     .home{
         .swiper{
@@ -51,6 +52,23 @@
                    top: -3%;
                 }
             }
+            .cards{
+                .boxes{
+                    .box{
+                        .button{
+                            .btn{
+                                left: 28%;
+                                width: 100px;
+                                height: 30px;
+                                font-size: 7px;
+                                i{
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         .chef{
             .image{
@@ -73,24 +91,62 @@
         }
     }
 }
-@media (max-width: 1209px){
-    .home{
-        .store{
-            .cards{
-                .txt{
-                    .box{
-                        .button{
-                            .btn{
-                                left: 19%;
-                                width: 100px;
-                                height: 30px;
-                                font-size: 7px;
-                                i{
-                                    font-size: 10px;
-                                }
-                            }
-                        }
-                    }
+
+@media (max-width: 1200px){
+    .header{
+        .navbar{
+            .icons{
+                width: 29%;
+            }
+        }
+    }
+    .about{
+        .cards{
+            .bottom-img{
+                img{
+                    bottom: -10%;
+                }
+               }
+        }
+    }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -13%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px){
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -13%;
+                }
+            }
+        }
+    }
+    .contact{
+        .message{
+            .groups{
+                width: 60%;
+            }
+            .text{
+                width: 60%;
+            }
+        }
+       
+    }
+    .shop{
+        .bottom{
+            .top-img{
+                img{
+                    margin-top: -14%;
                 }
             }
         }
@@ -141,16 +197,35 @@
     }
 }
 
-@media (max-width: 992px){
+@media(min-width: 992px){
     .header{
-        .navbar{
-         .brand {
-             width: 27%;
-             img {
-                 width: 100%;
-             }
-         }
+        .icons{
+            .icon{
+                padding-right: 10px;
+            }
         }
+    }
+}
+
+@media (max-width: 992px){
+    .header{   
+        .canvas {
+            // display: flex;
+            // align-items: center;
+           
+            .navbar{
+               
+               
+                .brand {
+                    width: 27%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+       
+       
      }
    .home{
     .aboutSec{
@@ -192,7 +267,7 @@
             }
         }
         .cards{
-            .txt{
+            .boxes{
                 .box{
                     .button{
                         .btn{
@@ -218,6 +293,57 @@
         }
      }
    }
+   .about{
+    .cards{
+        .bottom-img{
+            img{
+                bottom: -5%;
+            }
+           }
+    }
+    .parallax{
+        h1{
+            font-size: 70px;
+        }
+        .square{
+            width: 250px;
+            height: 250px;
+        }
+    }
+    .countUp{
+        .img{
+            img{
+                width: 100%;
+               position: absolute;
+               top: -5%;
+            }
+        }
+    }
+   }
+   .blog{
+    .bottom{
+        .image{
+            img{
+                width: 100%;
+                margin-top: -15%;
+            }
+        }
+    }
+   }
+   .contact{
+    .cards{
+        .text{
+            border: none;
+        }
+    }
+   }
+   .productDetails{
+    .bottom{
+        p{
+            width: 70%;
+        }
+    }
+   }
 }
 
 @media (max-width: 925px){
@@ -233,6 +359,27 @@
      
     }
   }
+  .shop{
+    .bottom{
+        .top-img{
+            img{
+                margin-top: -16%;
+            }
+        }
+    }
+  }
+}
+
+@media (max-width: 850px){
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -16%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 805px){
@@ -246,6 +393,16 @@
             }
          }
     }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -18%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 769px){
@@ -258,6 +415,16 @@
              }
          }
         }
+     }
+     .footer{
+        width: 100%;
+       .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       }
      }
     .home{
         .aboutSec{
@@ -306,12 +473,251 @@
               
             }
         }
+        .chef{
+            .img{
+                .text{
+                    left: 10%;
+                }
+            }
+        }
     }
     .shop{
         .bottom{
-            img{
-                margin-top: -18%;
+            .top-img{
+                img{
+                    margin-top: -19%;
+                }
             }
+        }
+    }
+    .about{
+        .sweet{
+            text-align: center;
+            .img{
+                img{
+                    margin-top: -19%;
+                }
+            }
+        }
+        .cards{
+            .bottom-img{
+                img{
+                    bottom: -3%;
+                }
+               }
+        }
+        .parallax{
+            h1{
+                font-size: 55px;
+            }
+            .square{
+                width: 220px;
+                height: 220px;
+            }
+        }
+        .countUp{
+            .img{
+                img{
+                    width: 100%;
+                   position: absolute;
+                   top: -2%;
+                }
+            }
+        }
+    }
+    .blog{
+        .bottom{
+            .box{
+                .img{
+                    img{
+                        height: 60vh;
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        .message{
+            .groups{
+                flex-direction: column;
+                .group{
+                    width: 100%;
+                }
+                
+            }
+        }
+    }
+    .search{
+        .bottom{
+            .src{
+                .input{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .cart{
+        .carts{
+//             .table{
+//                 .tab{
+//                     display: block;
+//   max-width: -moz-fit-content;
+//   max-width: fit-content;
+//   margin: 0 auto;
+//   overflow-x: auto;
+//   white-space: nowrap;
+//                 }
+//             }
+          
+            .table{
+                .tab, thead, tbody, th, td, tr { 
+                    display: block; 
+                }
+                .tab{
+                    border: none;
+                }
+                tr{
+                    margin-top: 50px;
+                }
+                
+                thead tr { 
+                    position: absolute;
+                    display: none;
+                }
+                
+                tr { border: 1px solid #c19f5f; }
+                
+                td { 
+                    border: none;
+                    border-bottom: 1px solid #c19f5f; 
+                    position: relative;
+                    padding-left: 50%; 
+                    font-size: 12px;
+                    .btn{
+                        padding: 0;
+                    }
+
+                    .removeBtn{
+                        i{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                
+                td:before { 
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 6px;
+                    left: 6px;
+                    width: 45%; 
+                    padding-right: 10px; 
+                    white-space: nowrap;
+                }
+                td:nth-of-type(6){
+                    border: none;
+                }
+                /*
+                Label the data
+                */
+                td:nth-of-type(1):before { content: "#"; font-weight: bold;}
+                td:nth-of-type(2):before { content: "Photo"; font-weight: bold;}
+                td:nth-of-type(3):before { content: "Title"; font-weight: bold;}
+                td:nth-of-type(4):before { content: "Price"; font-weight: bold;}
+                td:nth-of-type(5):before { content: "Quantity"; font-weight: bold;}
+                td:nth-of-type(6):before { content: "Delete"; font-weight: bold;}
+    
+            }
+        }
+    }
+    .whislist{
+        .bottom{
+            .table{
+                .tab, thead, tbody, th, td, tr { 
+                    display: block; 
+                }
+                .tab{
+                    border: none;
+                }
+                tr{
+                    margin-top: 50px;
+                }
+                
+                thead tr { 
+                    position: absolute;
+                    display: none;
+                }
+                
+                tr { border: 1px solid #c19f5f; }
+                
+                td { 
+                    border: none;
+                    border-bottom: 1px solid #c19f5f; 
+                    position: relative;
+                    padding-left: 50%; 
+                    font-size: 12px;
+                    .btn{
+                        padding: 0;
+                    }
+
+                    .removeBtn{
+                        i{
+                            font-size: 12px;
+                        }
+                    }
+                }
+                
+                td:before { 
+                    /* Now like a table header */
+                    position: absolute;
+                    /* Top/left values mimic padding */
+                    top: 6px;
+                    left: 6px;
+                    width: 45%; 
+                    padding-right: 10px; 
+                    white-space: nowrap;
+                }
+                td:nth-of-type(6){
+                    border: none;
+                }
+                /*
+                Label the data
+                */
+                td:nth-of-type(1):before { content: "#"; font-weight: bold;}
+                td:nth-of-type(2):before { content: "Photo"; font-weight: bold;}
+                td:nth-of-type(3):before { content: "Title"; font-weight: bold;}
+                td:nth-of-type(4):before { content: "Price"; font-weight: bold;}
+                td:nth-of-type(5):before { content: "Delete"; font-weight: bold;}
+                td:nth-of-type(6):before { content: "Add to cart"; font-weight: bold;}
+    
+            }
+        }
+    }
+    .error{
+        .bottom{
+            .box{
+                img{
+                    width: 50%; 
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 660px){
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -22%;
+                }
+            }
+        }
+    }
+    .contact{
+        .map{
+            height: 400px;
         }
     }
 }
@@ -360,6 +766,8 @@
             }
             .img{
                 .text{
+                    top: 30%;
+                    width: 70%;
                     p{
                         font-size: 12px;
                     }
@@ -381,7 +789,7 @@
                 .swiper-slide {
                     .box{
                         width: 90%;
-                        height: 60vh;
+                        height: 50vh;
                         p{
                             font-size: 15px;
                         }
@@ -398,8 +806,105 @@
     }
     .shop{
         .bottom{
+            .top-img{
+                img{
+                    margin-top: -23%;
+                }
+            }
+        }
+    }
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -22%;
+                }
+            }
+        }
+        .parallax{
+            h1{
+                font-size: 45px;
+            }
+            .square{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+    .dashboard{
+        .bottom{
+            .btn{
+                margin: 0;
+                padding: 0;
+            }
+            .tab, thead, tbody, th, td, tr { 
+                display: block; 
+            }
+            .tab{
+                border: none;
+            }
+            tr{
+                margin-top: 50px;
+            }              
+            thead tr { 
+                position: absolute;
+                display: none;
+            }              
+            tr { border: 1px solid white; }         
+            td { 
+                border: none;
+                border-bottom: 1px solid white; 
+                position: relative;
+                padding-left: 50%; 
+                font-size: 12px;
+                .btn{
+                    padding: 0;
+                }
+
+                .removeBtn{
+                    i{
+                        font-size: 12px;
+                    }
+                }
+            }        
+            td:before { 
+                /* Now like a table header */
+                position: absolute;
+                /* Top/left values mimic padding */
+                top: 6px;
+                left: 6px;
+                width: 45%; 
+                padding-right: 10px; 
+                white-space: nowrap;
+            }
+            td:nth-of-type(5){
+                border: none;
+            }
+            /*
+            Label the data
+            */
+            td:nth-of-type(1):before { content: "#"; font-weight: bold;}
+            td:nth-of-type(2):before { content: "Photo"; font-weight: bold;}
+            td:nth-of-type(3):before { content: "Title"; font-weight: bold;}
+            td:nth-of-type(4):before { content: "Price"; font-weight: bold;}
+            td:nth-of-type(5):before { content: "Edit"; font-weight: bold;}
+
+        }
+    }
+    .productDetails{
+        .bottom{
+            .top{
+                img{
+                    margin-top: -7%;
+                }
+            }
+        }
+    }
+    .search{
+        .bottom{
             img{
-                margin-top: -23%;
+                width: 100%;
+                margin-top: -7%;
             }
         }
     }
@@ -408,8 +913,76 @@
 @media (max-width: 517px){
     .shop{
         .bottom{
-            img{
-                margin-top: -27%;
+            .top-img{
+                img{
+                    margin-top: -27%;
+                }
+            }
+        }
+    }
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -27%;
+                }
+            }
+        }
+    }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -27%;
+                }
+            }
+            .box{
+                .img{
+                    img{
+                        height: 45vh;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        .text{
+            .img{
+                width: 100%;
+            }
+        }
+    }
+    .productDetails{
+        .bottom{
+            p{
+                width: 80%;
+            }
+        }
+    }
+    .whislist{
+        .bottom{
+            .top-img{
+                img{
+                    margin-top: -8%;
+                }
+               }
+        }
+    }
+    .account{
+        .login{
+            img {
+                width: 100%;
+                margin-top: -8%;
+              }
+        }
+    }
+    .error{
+        .bottom{
+            .image{
+                img{
+                    margin-top: -8%;
+                }
             }
         }
     }
@@ -440,11 +1013,11 @@
                         }
                     }
                     .btn{
-                        width: 100px;
-                        height: 30px;
-                        font-size: 7px;
+                        width: 120px;
+                        height: 40px;
+                        font-size: 9px;
                         i{
-                            font-size: 5px;
+                            font-size: 7px;
                         }
                     }
                 }
@@ -453,21 +1026,15 @@
         .store{
             .cards{
                 .mySwiper{
-                    .box{
-                        .button{
-                            .btn{
-                                left: 25%;
-                                width: 100px;
-                                height: 40px;
-                            }
-                        }
-                    }
+                    width: 100%;
+                    height: 100%;
                 }
             }
         }
         .chef{
             .img{
                 .text{
+                    top: 20%;
                     h1{
                         font-size: 26px;
                     }
@@ -484,6 +1051,105 @@
                 font-size: 40px;
             }
         }
+        .bottom{
+            .top-img{
+                img{
+                    margin-top: -30%;
+                }
+            }
+        }
+    }
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -29%;
+                }
+            }
+        }
+        .cards{
+            .bottom-img{
+                img{
+                    bottom: -2%;
+                }
+               }
+        }
+        .countUp{
+            .img{
+                img{
+                    width: 100%;
+                   position: absolute;
+                   top: -1%;
+                }
+            }
+        }
+        .video{
+           .container{
+            .box{
+                h1{
+                    font-size: 70px;
+                }
+            }
+           }
+        }
+    }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -30%;
+                }
+            }
+        }
+    }
+    .contact{
+        .message{
+            .groups{
+                width: 80%;
+                .group{
+                    width: 100%;
+                }
+                
+            }
+            .text{
+                width: 80%;
+            }
+            .button{
+                .btn{
+                    width: 190px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+    .search{
+        .bottom{
+            img{
+                margin-top: -9%;
+            }
+            .src{
+                .input{
+                    width: 90%;
+                }
+            }
+        }
+    }
+    .account{
+        .login{
+            .login-box{
+                width: 300px;
+            }
+        }
+    }
+    .whislist{
+        .bottom{
+            .txt{
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
     }
 }
 
@@ -496,11 +1162,69 @@
                 }
             }
         }
+        .video{
+            .container{
+                .box{
+                    h1{
+                        font-size: 70px;
+                    }
+                }
+            }
+        }
     }
     .shop{
         .bottom{
             img{
                 margin-top: -32%;
+            }
+        }
+    }
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -32%;
+                }
+            }
+        }
+    }
+    .blog{
+        .bottom{
+            .box{
+                h4{
+                  font-size: 30px;
+                    
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .cart{
+        .carts{  
+            .top-img{
+                img{
+                    margin-top: -9%;
+                }
+               }     
+            .table{
+               
+               .tab{
+                width: 100%;
+               }
+    
+            }
+        }
+    }
+    .whislist{
+        .bottom{       
+            .table{
+               
+               .tab{
+                width: 100%;
+               }
+    
             }
         }
     }
@@ -514,6 +1238,85 @@
             }
             .bottom-img{
                 bottom: -2%;
+            }
+        }
+       
+    }
+    .footer{
+        .text{
+            p{
+                width: 100%;
+                font-size: 13px;
+            }
+        }
+    }
+    .about{
+        .sweet{
+            p{
+                font-size: 15px;
+            }
+            .btn {
+                width: 180px;
+                height: 50px;
+                font-size: 14px;
+                i {
+                    font-size: 10px;
+                    margin-left: 5px;
+                }
+    
+              
+            }
+            
+        }
+    }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -33%;
+                }
+            }
+        }
+    }
+    .error{
+        .bottom{
+            .box{
+                img{
+                    width: 70%; 
+                }
+            }
+        }
+    }
+    .cart{
+        .carts{
+            .txt{
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            .top-img{
+                img{
+                    margin-top: -33%;
+                }
+            }
+        }
+    }
+    .contact{
+        .cards{
+            img{
+                margin-top: -10%;
+            }
+        }
+    }
+    .search{
+        .bottom{
+            img{
+                margin-top: -10%;
             }
         }
     }
@@ -551,6 +1354,17 @@
                     height: 50px;
                 }
             }
+            .cards{
+                .mySwiper{
+                    .box{
+                        .button{
+                            .btn{
+                                left: 24%;
+                            }
+                        }
+                    }
+                }
+            }
         }
         .chef{
             .image{
@@ -558,11 +1372,13 @@
             }
             .img{
                 .text{
+                    left: 7%;
+                    width: 80%;
                     p{
                         font-size: 12px;
                     }
                     h1{
-                        font-size: 32px;
+                        font-size: 25px;
                     }
                     h5{
                         font-size: 20px;
@@ -574,22 +1390,340 @@
                 }
             }
         }
+        .testimonials{
+            .swiper{
+                .swiper-slide {
+                    .box{
+                        height: 50vh;
+                    }
+                }
+              
+            }
+        }
     }
     .shop{
         .bottom{
+            .top-img{
+                img{
+                    margin-top: -36%;
+                }
+            }
+        }
+    }
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -37%;
+                }
+            }
+        }
+        .cards{
+            .bottom-img{
+                img{
+                    bottom: -1%;
+                }
+               }
+        }
+    }
+    .blog{
+        .bottom{
+            .box{
+                .img{
+                    img{
+                        height: 40vh;
+                    }
+                }
+            }
+        }
+    }
+    .productDetails{
+        .bottom{
+            .top{
+                img{
+                    margin-top: -10%;
+                }
+            }
+            p{
+                width: 90%;
+                font-size: 16px
+            }
+            .btn {
+                width: 130px;
+                height: 40px;
+                font-size: 12px;
+                i {
+                    font-size: 10px;
+                }
+            }
+            .desc{
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+       }
+}
+
+@media (max-width: 354px){
+   .home{
+    .video{
+        .container{
+            .box{
+                h1{
+                    font-size: 65px;
+                }
+            }
+        }
+    }
+   }
+   .blog{
+    .bottom{
+        .image{
             img{
-                margin-top: -36%;
+                width: 100%;
+                margin-top: -38%;
+            }
+        }
+    }
+   }
+   .shop{
+    .bottom{
+        .top-img{
+            img{
+                margin-top: -38%;
+            }
+        }
+    }
+   }
+   .account{
+    .login{
+        img {
+            width: 100%;
+            margin-top: -11%;
+          }
+    }
+}
+}
+
+@media (max-width: 321px){
+    .home{
+        .store{
+          .cards{
+            .mySwiper{
+                .box{
+                    .button{
+                        .btn{
+                            left: 17%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .chef{
+        .img{
+            .text{
+                h1{
+                    font-size: 20px;
+                }
+                h5{
+                    font-size: 15px;
+                    margin-top: 30px;
+                }
+                h6{
+                    font-size: 7px;
+                }
+            }
+        }
+    }
+    }
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -40%;
+                }
+            }
+        }
+        .cards{
+            .icon{
+                i{
+                    font-size: 30px;
+                }
+            }
+            .text{
+                h5{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+        .parallax{
+            h1{
+                font-size: 35px;
+            }
+            .square{
+                width: 180px;
+                height: 180px;
+            }
+        }
+        .video{
+            .container{
+             .box{
+                 h1{
+                     font-size: 60px;
+                 }
+                 .btn{
+                    padding: 20px 25px;
+                 }
+             }
+            }
+         }
+    }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -40%;
+                }
+            }
+        }
+    }
+    .account{
+        .login{
+            .login-box{
+                width: 250px;
+            }
+        }
+    }
+    .error{
+        .bottom{
+            .box{
+                img{
+                    width: 70%; 
+                }
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                .button{
+                    .btn {
+                        width: 150px;
+                        height: 50px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .cart{
+        .carts{
+            .top-img{
+                img{
+                    margin-top: -12%;
+                }
+               }
+            .txt{
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            .top-img{
+                img{
+                    margin-top: -42%;
+                }
             }
         }
     }
 }
 
-
-@media (min-width: 992px) {
-    .header {
-        .canvas {
-            display: flex;
-            align-items: center;
+@media (max-width: 300px){
+    .home{
+        .video{
+            .container{
+                .box{
+                    h1{
+                        font-size: 50px;
+                    }
+                }
+            }
         }
     }
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -43%;
+                }
+            }
+        }
+    }
+    .contact{
+            .cards{
+                img{
+                    margin-top: -13%;
+                }
+            }
+    }
+    .search{
+        .bottom{
+            img{
+                margin-top: -12%;
+            }
+        }
+    }
+    .error{
+        .bottom{
+            .image{
+                img{
+                    margin-top: -11%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 295px){
+    .about{
+        .sweet{
+            .img{
+                img{
+                    margin-top: -43%;
+                }
+            }
+        }
+    }
+    .shop{
+        .bottom{
+            .top-img{
+                img{
+                    margin-top: -45%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 285px){
+    .blog{
+        .bottom{
+            .image{
+                img{
+                    width: 100%;
+                    margin-top: -45%;
+                }
+            }
+            }
+        }
 }

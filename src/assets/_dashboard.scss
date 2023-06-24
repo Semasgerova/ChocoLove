@@ -1,9 +1,9 @@
-.cart {
+.dashboard {
     background-color: #0F0E0F;
-
+    font-family: 'Cormorant', serif;
     .main {
         background: linear-gradient(rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url('http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_02.jpg');
+                rgba(0, 0, 0, 0.5)), url('http://crems.like-themes.com/wp-content/uploads/2019/06/parallax_03.jpg');
         min-height: 500px;
         background-attachment: fixed;
         background-position: center;
@@ -11,6 +11,7 @@
         background-size: cover;
         font-family: 'Cormorant', serif;
         color: white;
+
         h1 {
             font-size: 50px;
         }
@@ -29,7 +30,7 @@
 
     }
 
-    .carts {
+    .bottom {
         .top-img {
             img {
                 width: 100%;
@@ -37,38 +38,36 @@
             }
         }
 
-        .txt {
-            color: #c19f5f;
-            font-family: 'Cormorant', serif;
+        .btn {
+            background-color: transparent;
+            border: none;
+            margin-bottom: 20px;
 
-            h1 {
-                font-size: 50px;
+            &:hover {
+                background-color: white;
+                color: #0F0E0F;
+                font-weight: bold;
             }
         }
 
-        .table {
-            background-color: #0F0E0F;
-            color: #c19f5f;
-            font-family: 'Cormorant', serif;
-
-            .tab {
-                border: 1px solid #c19f5f;
-                width: 75%;
-            }
-
-            .btn {
-                background-color: transparent;
-                border: none;
-                color: #c19f5f;
-
-            }
-            .button{
-                border: 1px solid #c19f5f;
-                color: #c19f5f;
-                padding: 10px 30px;
-                &:hover{
-                    border: 1px solid white;
+        thead {
+            tr {
+                th {
                     color: white;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    color: white;
+
+                    .button:hover {
+                        transition: .3s;
+                        background-color: transparent;
+                        color: white;
+                    }
                 }
             }
         }

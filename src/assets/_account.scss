@@ -1,71 +1,81 @@
-.account{
-    background-color: #0F0E0F;
-    .main{
-        background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/parallax_02.jpg');
-    min-height: 500px; 
+.account {
+  background-color: #0F0E0F;
+
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url('http://crems.like-themes.com/wp-content/uploads/2019/06/parallax_02.jpg');
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Cormorant', serif;
     color: white;
-    h1{
-        font-size: 50px;
-    }
-    p{
-        span{
-            color: #c19f5f;
-            &:hover{
-                transition: .3s;
-                color: white;
-                cursor: pointer;
-            }
-        }
+
+    h1 {
+      font-size: 50px;
     }
 
-    }
-    .login{
-        img{
-            width: 100%;
-            margin-top: -5%;
+    p {
+      span {
+        color: #c19f5f;
+
+        &:hover {
+          transition: .3s;
+          color: white;
+          cursor: pointer;
         }
-        .login-box{
-            background: rgba(0, 0, 0, 0.5);
+      }
+    }
+
+  }
+
+  .login {
+    img {
+      width: 100%;
+      margin-top: -5%;
+    }
+
+    .login-box {
+      background: rgba(0, 0, 0, 0.5);
       box-sizing: border-box;
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
       border-radius: 10px;
       font-family: 'Cormorant', serif;
-      h2{
+      width: 400px;
+
+      h2 {
         color: #fff;
         text-align: center;
       }
-      .form-control{
+
+      .form-control {
         color: #fff;
         border: none;
         border-bottom: 1px solid #fff;
         outline: none;
         background-color: transparent;
+        width: 100%;
       }
-      .btn{
+
+      .btn {
         color: #ffff;
         background-color: transparent;
         border: none;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  font-weight: bold;
-  &:hover{
-    background-color: #fff;
-    color: #0F0E0F;
-    outline: none;
-  }
-      }
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 0.5s;
+        font-weight: bold;
+
+        &:hover {
+          background-color: #fff;
+          color: #0F0E0F;
+          outline: none;
         }
+      }
     }
-   
+  }
+
 }

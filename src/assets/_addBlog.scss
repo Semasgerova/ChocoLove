@@ -1,0 +1,55 @@
+.addBlog {
+    background-color: #0F0E0F;
+    font-family: 'Cormorant', serif;
+
+    .main {
+        background: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url('http://crems.like-themes.com/wp-content/uploads/2019/06/parallax_03.jpg');
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cormorant', serif;
+        color: white;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            span {
+                color: #c19f5f;
+
+                &:hover {
+                    transition: .3s;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+    .bottom {
+        color: white;
+
+        .top-img {
+            img {
+                width: 100%;
+                margin-top: -5%;
+            }
+        }
+
+        .btn {
+            background-color: transparent;
+            border: none;
+
+            &:hover {
+                background-color: white;
+                color: #0F0E0F;
+                font-weight: bold;
+            }
+        }
+    }
+}

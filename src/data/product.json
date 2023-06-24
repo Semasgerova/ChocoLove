@@ -1,316 +1,345 @@
-[
-  {
-    "id": 1,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
-    "title": "Truffle With Vanilla",
-    "price": 25.00,
-    "category": "Vanilla",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-  },
-  {
-    "id": 2,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
-    "title": "Milk Chocolate With Peanuts",
-    "price": 42.49,
-    "category": "Milk",
-    "description": "Nullam laoreet arcu eu massa euismod, quis dictum massa sodales. Proin eget scelerisque dui. Phasellus id enim lobortis, porta orci at, viverra turpis. Phasellus et odio ac velit eleifend condimentum vel at purus. Ut lobortis sed felis vitae luctus."
-  },
-  {
-    "id": 3,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
-    "title": "Pastry Chef Fantasy",
-    "price": 13.49,
-    "category": "Chef",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-  },
-  {
-    "id": 4,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
-    "title": "Almond Dark Chocolate",
-    "price": 12.99,
-    "category": "Dark",
-    "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-  },
-  {
-    "id": 5,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_01.jpg",
-    "title": "Rent of Equipment for Pastry Shops",
-    "price": 13.49,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 6,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_02.jpg",
-    "title": "Secrets of Choosing Cocoa Powder",
-    "price": 15.19,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },  
-  {
-    "id": 7,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_03.jpg",
-    "title": "The Evolution of Dark Chocolate",
-    "price": 14.49,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  }, 
-  {
-    "id": 8,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_04.jpg",
-    "title": "The Most Expensive Sweets in Germany",
-    "price": 13.7,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },  
-  {
-    "id": 9,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_05.jpg",
-    "title": "Truffle Sweets – a Treat for Kings",
-    "price": 20.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 10,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_06.jpg",
-    "title": "Choice of Material for Forms",
-    "price": 12.19,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },  
-  {
-    "id": 11,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_19.jpg",
-    "title": "Secrets of Choosing Fresh Bakery",
-    "price": 13.49,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 12,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_21.jpg",
-    "title": "The Most Expensive Bakeries in Germany",
-    "price": 19.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 13,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_20.jpg",
-    "title": "The Evolution of Modern Bread",
-    "price": 23.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },  
-  {
-    "id": 14,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2020/08/blog_22.jpg",
-    "title": "Rent of Equipment for Bakery Production",
-    "price": 13.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 15,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_07.jpg",
-    "title": "Modern Types of Milk Chocolate",
-    "price": 27.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 16,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_10.jpg",
-    "title": "Delicious Nut Candy Recipes",
-    "price": 18.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 17,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_09.jpg",
-    "title": "Recipes for Making Fondant Fillings",
-    "price": 12.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },  
-  {
-    "id": 18,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_08.jpg",
-    "title": "Basics of Storing Dark Chocolate",
-    "price": 10.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 19,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_14.jpg",
-    "title": "Top 10 Coffee Restaurants Reviews",
-    "price": 23.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 20,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_13.jpg",
-    "title": "Who is a Pastry Chef?",
-    "price": 25.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },  
-  {
-    "id": 21,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_12.jpg",
-    "title": "Chocolate: The History of a Product",
-    "price": 15.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 22,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_11.jpg",
-    "title": "Top Ten Pastry Shops in Europe",
-    "price": 20.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 23,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/blog_17.jpg",
-    "title": "Rules for Serving Different Types of Chocolate",
-    "price": 21.99,
-    "description": "Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of eating chocolate before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the chocolate has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it may, …"
-  },
-  {
-    "id": 24,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-01-e1597251883779-360x360.jpg"
-  },  
-  {
-    "id": 25,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-02-480x480.jpg"
+{
+  "homeShop": [
+    {
+      "id": 1,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      "title": "Truffle With Vanilla",
+      "price": 25
+      },
+    {
+      "id": 2,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      "title": "Milk Chocolate With Peanuts",
+      "price": 42.49
+      },
+    {
+      "id": 3,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      "title": "Pastry Chef Fantasy",
+      "price": 13.49
+     },
+    {
+      "id": 4,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      "title": "Almond Dark Chocolate",
+      "price": 12.99
+      }
+  ],
+  "homeShopAz": [
+    {
+      "id": 1,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      "title": "Vanilli Truffle",
+      "price": 25
+     },
+    {
+      "id": 2,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      "title": "Fıstıqlı Südlü Şokolad",
+      "price": 42.49,
+      "category": "Südlü"
     },
-  {
-    "id": 26,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-03-480x480.jpg"
+    {
+      "id": 3,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      "title": "Pasta şefi fantezisi",
+      "price": 13.49
+      },
+    {
+      "id": 4,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      "title": "Badamlı Tünd Şokolad",
+      "price": 12.99
+      }
+  ],
+  "homeGallery":[
+    {
+      "id": 5,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-01-e1597251883779-360x360.jpg"
     },
-  {
-    "id": 27,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-04-480x480.jpg"
-  },
-  {
-    "id": 28,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-01-600x600.png",
-    "title": "Chocolate Covered Roast",
-    "price":17.99,
-    "category":"Chocolate",
-    "description": "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  },
-  {
-    "id": 29,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
-    "title": "Honey Roasted Nuts",
-    "price":19.99,
-    "category":"Bakery",
-    "description": "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
-  },
-  {
-    "id": 30,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
-    "title": "Truffle With Vanilla",
-    "price":25,
-    "category":"Chocolate",
-    "description": "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  },
-  {
-    "id": 31,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
-    "title": "Pastry Chef Fantasy",
-    "price":13.49,
-    "category":"Chocolate",
-    "description": "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
-  },
-  {
-    "id": 32,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
-    "title": "Almond Dark Chocolate",
-    "price":12.99,
-    "category":"Chocolate",
-    "description": "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  }, 
-  {
-    "id": 33,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-07-600x600.png",
-    "title": "Fondant-Fruit Sweets",
-    "price":3.49,
-    "category":"Chocolate",
-    "description": "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
-  },
-  {
-    "id": 34,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
-    "title": "Milk Chocolate With Peanuts",
-    "price":42.49,
-    "category":"Chocolate",
-    "description": "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
-  },
-  {
-    "id": 35,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-12-600x600.png",
-    "title": "Fruit Praline",
-    "price":3.49,
-    "category":"Chocolate",
-    "description": "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
-  }, 
-  {
-    "id": 36,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-11-600x600.png",
-    "title": "Drunken Cherry Chocolate",
-    "price":42.49,
-    "category":"Chocolate",
-    "description": "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
-  },
-  {
-    "id": 37,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-08-600x600.png",
-    "title": "Peppered Dark Chocolate",
-    "price":25.00,
-    "category":"Chocolate",
-    "description": "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  },
-  {
-    "id": 38,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-10-600x600.png",
-    "title": "Dark Chocolate With Souffle",
-    "price":11.49,
-    "category":"Chocolate",
-    "description": "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-  }, 
-  {
-    "id": 39,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-09-600x600.png",
-    "title": "Chocolate Coffee Candy",
-    "price":13.49,
-    "category":"Chocolate",
-    "description": "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
-  },
-  {
-    "id": 40,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_01.jpg",
-    "name": "John Portman",
-    "specialty": "CONFECTIONER",
-    "about": "Donec nec odio sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere enim eu tellus condimentum ullamcorper. Quisque dolor risus, blandit et sem eu, faucibus efficitur augue.",
-    "age": 28,
-    "experience": 4
-  },  
-  {
-    "id": 41,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_02.jpg",
-    "name": "Kelley Miles",
-    "specialty": "PASTRY CHEF",
-    "about": "Donec nec odio sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere enim eu tellus condimentum ullamcorper. Quisque dolor risus, blandit et sem eu, faucibus efficitur augue.",
-    "age": 38,
-    "experience": 10
+    {
+      "id": 6,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-02-480x480.jpg"
     },
-  {
-    "id": 42,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_03.jpg",
-    "name": "Sherman Warner",
-    "specialty": "CONFECTIONER",
-    "about": "Donec nec odio sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere enim eu tellus condimentum ullamcorper. Quisque dolor risus, blandit et sem eu, faucibus efficitur augue.",
-    "age": 25,
-    "experience": 3
+    {
+      "id": 7,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-03-480x480.jpg"
     },
-  {
-    "id": 43,
-    "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_04.jpg",
-    "name": "Denis Green",
-    "specialty": "BARISTA",
-    "about": "Donec nec odio sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere enim eu tellus condimentum ullamcorper. Quisque dolor risus, blandit et sem eu, faucibus efficitur augue.",
-    "age": 32,
-    "experience": 7
-  }
-
-]
+    {
+      "id": 8,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-04-480x480.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 9,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-01-600x600.png",
+      "title": "Chocolate Covered Roast",
+      "price": 17.99,
+      "category": "Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 10,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
+      "title": "Honey Roasted Nuts",
+      "price": 19.99,
+      "category": "Deserts",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 11,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      "title": "Truffle With Vanilla",
+      "price": 25,
+      "category": "Truffles",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 12,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      "title": "Pastry Chef Fantasy",
+      "price": 13.49,
+      "category": "Belgian Waffles",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 13,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      "title": "Almond Dark Chocolate",
+      "price": 12.99,
+      "category": "Dark Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 14,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-07-600x600.png",
+      "title": "Fondant-Fruit Sweets",
+      "price": 3.49,
+      "category": "Deserts",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 15,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      "title": "Milk Chocolate With Peanuts",
+      "price": 42.49,
+      "category": "Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 16,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-12-600x600.png",
+      "title": "Fruit Praline",
+      "price": 3.49,
+      "category": "Deserts",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 17,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-11-600x600.png",
+      "title": "Drunken Cherry Chocolate",
+      "price": 42.49,
+      "category": "Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 18,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-08-600x600.png",
+      "title": "Peppered Dark Chocolate",
+      "price": 25,
+      "category": "Dark Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 19,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-10-600x600.png",
+      "title": "Dark Chocolate With Souffle",
+      "price": 11.49,
+      "category": "Dark Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    },
+    {
+      "id": 20,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-09-600x600.png",
+      "title": "Chocolate Coffee Candy",
+      "price": 13.49,
+      "category": "Chocolate",
+      "description": "The warmth and bitterness of coffee paired with the sweet smoothness of chocolate…mmmmm. Coffee enhances the flavors of chocolate. Both coffee and chocolate have a variety of unique flavors and are independently complex. When paired together, delicious combinations are created.Dark chocolate is a form of chocolate containing cocoa solids and cocoa butter without the milk or butter found in milk chocolate. Dark chocolate without added sweetener is known as bitter chocolate or unsweetened chocolate."
+    }
+  ],
+  "productsAz": [
+    {
+      "id": 9,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-01-600x600.png",
+      "title": "Şokoladlı qovrulmuş",
+      "price": 17.99,
+      "category": "Şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 10,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
+      "title": "Bal Qovrulmuş Fındıq",
+      "price": 19.99,
+      "category": "Desertlər",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 11,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      "title": "Vanilli Truffle",
+      "price": 25,
+      "category": "Trufflelər",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 12,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      "title": "Xəmir aşpazı fantaziyası",
+      "price": 13.49,
+      "category": "Belçika vafliləri",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 13,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      "title": "Badam Tünd Şokolad",
+      "price": 12.99,
+      "category": "Tünd şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 14,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-07-600x600.png",
+      "title": "Fondant-Meyvə Şirniyyatları",
+      "price": 3.49,
+      "category": "Desertlər",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 15,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      "title": "Fıstıqlı Südlü Şokolad",
+      "price": 42.49,
+      "category": "Şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 16,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-12-600x600.png",
+      "title": "Pralin meyvəsi",
+      "price": 3.49,
+      "category": "Desertlər",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 17,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-11-600x600.png",
+      "title": "Sərxoş Albalı Şokolad",
+      "price": 42.49,
+      "category": "Şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 18,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-08-600x600.png",
+      "title": "Bibərli Tünd Şokolad",
+      "price": 25,
+      "category": "Tünd şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 19,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-10-600x600.png",
+      "title": "Sufle ilə Tünd Şokolad",
+      "price": 11.49,
+      "category": "Tünd şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    },
+    {
+      "id": 20,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-09-600x600.png",
+      "title": "Şokoladlı qəhvə konfeti",
+      "price": 13.49,
+      "category": "Şokolad",
+      "description": "Qəhvənin istisi və acılığı şokoladın şirin hamarlığı ilə birləşir... mmmmm. Qəhvə şokoladın dadını artırır. Həm qəhvə, həm də şokolad müxtəlif unikal ləzzətlərə malikdir və müstəqil olaraq mürəkkəbdir. Birlikdə birləşdirildikdə ləzzətli kombinasiyalar yaranır. Tünd şokolad, südlü şokoladda olan süd və ya kərə yağı olmayan kakao qatıları və kakao yağı olan şokolad formasıdır. Əlavə dadlandırıcı olmayan tünd şokolad acı şokolad və ya şəkərsiz şokolad kimi tanınır."
+    }
+  ],
+  "chef": [
+    {
+      "id": 21,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_01.jpg",
+      "name": "John Portman",
+      "specialty": "CONFECTIONER",
+      "about": "John Portman Mitzewich (born July 11, 1995), more commonly known as 'Chef John', is an American chef known for publishing instructional cooking videos on the blog and YouTube channel 'Food Wishes', with over 1 billion views on his channel.",
+      "age": 28,
+      "experience": 4
+    },
+    {
+      "id": 22,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_02.jpg",
+      "name": "Kelley Miles",
+      "specialty": "PASTRY CHEF",
+      "about": "Kelley Miles (born May 15, 1985), better known as 'Chef Miles', is an American chef known for posting educational cooking videos on his blog 'Food', which has 5 billion views on his channel, and on his YouTube channel.",
+      "age": 38,
+      "experience": 10
+    },
+    {
+      "id": 23,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_03.jpg",
+      "name": "Sherman Warner",
+      "specialty": "CONFECTIONER",
+      "about": "Sherman Warner, born May 15, 1997, is an American chef known for posting instructional cooking videos on his blog 'Warner', which has over 2 billion views on his channel, and on his YouTube channel.",
+      "age": 25,
+      "experience": 3
+    },
+    {
+      "id": 24,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_04.jpg",
+      "name": "Denis Green",
+      "specialty": "BARISTA",
+      "about": "Denis Green, born May 15, 1991, is an American chef known for posting instructional cooking videos on his blog 'Green', which has 5 billion views on his channel, and on his YouTube channel.",
+      "age": 32,
+      "experience": 7
+    }
+  ],
+  "chefAz": [
+    {
+      "id": 21,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_01.jpg",
+      "name": "Con Portman",
+      "specialty": "ŞİRNİYYATÇI",
+      "about": "Con Portman (11 iyul 1995-ci ildə anadan olub), daha çox 'Aşpaz Con' kimi tanınır, öz kanalında 1 milyard baxışı olan 'Food Wishes' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
+      "age": 28,
+      "experience": 4
+    },
+    {
+      "id": 22,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_02.jpg",
+      "name": "Kelley Miles",
+      "specialty": "Xənmət Aşbazı",
+      "about": "Kelley Miles (15 may 1985-ci ildə anadan olub), daha çox 'Aşpaz Miles' kimi tanınır, öz kanalında 5 milyard baxışı olan 'Food' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
+      "age": 38,
+      "experience": 10
+    },
+    {
+      "id": 23,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_03.jpg",
+      "name": "Sherman Warner",
+      "specialty": "ŞİRNİYYATÇI",
+      "about": "Sherman Warner 15 may 1997-ci ildə anadan olub, öz kanalında 2 milyard baxışı olan 'Warner' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
+      "age": 25,
+      "experience": 3
+    },
+    {
+      "id": 24,
+      "image": "http://crems.like-themes.com/wp-content/uploads/2017/09/team_04.jpg",
+      "name": "Denis Green",
+      "specialty": "BARISTA",
+      "about": "Denis Green 15 may 1991-ci ildə anadan olub, öz kanalında 5 milyard baxışı olan 'Green' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
+      "age": 32,
+      "experience": 7
+    }
+  ]
+}

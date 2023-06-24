@@ -1,28 +1,21 @@
 import { LinkContainer } from "react-router-bootstrap";
-import { useContext, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { LangContext } from "../context/LangContext";
-
 import 'sweetalert2/src/sweetalert2.scss'
 
+interface Person {
+  email: string;
+  pass: string;
+}
 
-const user =[
-  {
-    name:"Sema",
-    email: "sema01@gmail.com",
-    pass: "2001s",
-  },
-  {
-    name:"User",
-    email: "user@gmail.com",
-    pass: "user",
-  }
-]
+export const admin:Person = {
+  email: "admin@gmail.com",
+  pass: "admin",
+};
 
-const Account = () => {
-  const [lang] = useContext(LangContext);
+const Admin = () => {
   const emailRef = useRef<HTMLInputElement>(null);
   const passRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
@@ -31,39 +24,36 @@ const Account = () => {
 
   const formSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!emailRef.current?.value || !passRef.current?.value) {
+    if (!emailRef.current!.value || !passRef.current!.value) {
       Swal.fire(
         'Please, fill input',
         '...',
         'question'
       )
-      
     } else {
-      const findUser:any = user.find((u:any)=>u?.email===emailRef.current?.value)
       if (
-        !findUser || passRef.current?.value !== findUser.pass
+        emailRef.current!.value === admin.email &&
+        passRef.current!.value === admin.pass
       ) {
-        Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Email or password is wrong!!!',
-        })
-      } else {
         Swal.fire({
           position: 'top-end',
           icon: 'success',
           title: 'Login success',
           showConfirmButton: false,
           timer: 1500
-        })
-        localStorage.setItem("MyUser", JSON.stringify(findUser));
+        }) 
         setTimeout(function(){ 
-          navigate("/shop");
+          navigate("/dashboard");
           window.location.reload();
          }, 1500);
-        
+         localStorage.setItem("Admin", JSON.stringify(admin));
        
-       
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Email or password is wrong!!!',
+        })
       }
     }
   };
@@ -71,20 +61,13 @@ const Account = () => {
   return (
     <div className="account">
       <div className="main d-flex flex-column justify-content-center align-items-center h-100">
-        <h1>{lang==="az"?"Hesab":"Account"}</h1>
-       {lang==="az"?
+        <h1>Admin Panel</h1>
         <p className="py-3">
-        <LinkContainer to="/">
-          <span>Ana Səhifə</span>
-        </LinkContainer>
-        // Hesab
-      </p>:
-        <p className="py-3">
-        <LinkContainer to="/">
-          <span>Home</span>
-        </LinkContainer>
-        // Account
-      </p>}
+          <LinkContainer to="/">
+            <span>Home</span>
+          </LinkContainer>
+          // AdminPanel
+        </p>
       </div>
       <div className="login">
         <img
@@ -93,7 +76,7 @@ const Account = () => {
         />
         <div className="d-flex align-items-center justify-content-center flex-column py-5">
           <div className="col-3 login-box p-5">
-            <h2>{lang==="az"?"Daxil ol":"Login"}</h2>
+            <h2>Login</h2>
             <Form onSubmit={formSubmit}>
               <Form.Group className="mb-3 formGroup">
                 <Form.Control
@@ -112,7 +95,7 @@ const Account = () => {
               </Form.Group>
 
               <Button type="submit" className="btn">
-                {lang==="az"?"Daxil ol":"Sign In"}
+                Sign In
               </Button>
             </Form>
           </div>
@@ -122,4 +105,4 @@ const Account = () => {
   );
 };
 
-export default Account;
+export default Admin;

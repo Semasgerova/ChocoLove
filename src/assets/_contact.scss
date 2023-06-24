@@ -1,87 +1,106 @@
-.contact{
-    .main{
-        background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ), url('http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_04.jpg');
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Cormorant', serif;
-    color: white;
-    h1{
-        font-size: 50px;
-    }
-    p{
-        span{
-            color: #c19f5f;
-            &:hover{
-                transition: .3s;
-                color: white;
-                cursor: pointer;
+.contact {
+    .main {
+        background: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url('http://crems.like-themes.com/wp-content/uploads/2019/06/inner_HEADER_04.jpg');
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cormorant', serif;
+        color: white;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            span {
+                color: #c19f5f;
+
+                &:hover {
+                    transition: .3s;
+                    color: white;
+                    cursor: pointer;
+                }
             }
         }
-    }
 
     }
-    .cards{
+
+    .cards {
         background-color: #0F0E0F;
-        img{
+
+        img {
             width: 100%;
             margin-top: -5%;
         }
-        .text{
+
+        .text {
             border-left: 1px dotted #FFFFFF80;
-            .icon{
-                i{
+
+            .icon {
+                i {
                     color: #c19f5f;
                     font-size: 30px;
                 }
             }
-            h3{
+
+            h3 {
                 font-family: 'Cormorant', serif;
                 color: white;
                 font-size: 20px;
                 margin-top: 10px;
             }
-            p{
+
+            p {
                 color: #FFFFFF80;
             }
         }
-        
+
     }
-    .map{
+
+    .map {
         height: 600px;
     }
-    .message{
+
+    .message {
         background-color: #0F0E0F;
-        h1{
+        width: 100%;
+
+        h1 {
             color: white;
             font-family: 'Cormorant', serif;
         }
-        .groups{
-            width: 40%;
-            .group{
-               width: 45%;
-               .input{
-                padding: 25px 100px;
-                border-radius: 40px;
-                background-color: transparent;
-               }
+
+        .groups {
+            width: 50%;
+
+            .group {
+                width: 48%;
+
+                .input {
+                    width: 100%;
+                    height: 70px;
+                    border-radius: 25px;
+                    background-color: transparent;
+                }
             }
 
         }
-        .text{
-            width: 40%;
-            .txt{
-                padding: 50px 100px;
-                border-radius: 40px;
+
+        .text {
+            width: 50%;
+
+            .txt {
+                width: 100%;
+                height: 200px;
+                border-radius: 25px;
                 background-color: transparent;
             }
         }
-        .button{
+
+        .button {
             .btn {
                 width: 220px;
                 height: 70px;
@@ -89,6 +108,7 @@
                 background-color: transparent;
                 border: 1px solid #c19f5f;
                 color: #c19f5f;
+
                 i {
                     font-size: 12px;
                     margin-left: 5px;

@@ -28,9 +28,34 @@
     }
     .bottom{
         background-color: #0F0E0F;
-        img{
-            width: 100%;
-            margin-top: -5%;
-        }
+       
+        .top-img{
+            img{
+                width: 100%;
+                margin-top: -5%;
+            }
+           }
+            .txt{
+                color: #c19f5f;
+                font-family: 'Cormorant', serif;
+                h1{
+                    font-size: 50px;
+                }
+            }
+            .table{
+                background-color: #0F0E0F;
+                color: #c19f5f;
+                font-family: 'Cormorant', serif;
+                .tab{
+                    border: 1px solid #c19f5f;
+                    width: 75%;
+                  }
+                .btn{
+                    background-color: transparent;
+                    border: none;
+                    color: #c19f5f;
+                    
+                }
+            }
     }
 }

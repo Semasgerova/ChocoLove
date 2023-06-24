@@ -1,40 +1,145 @@
 .header {
-    .navbar{
-     background: rgb(0,0,0);
-     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(6,6,6,0.9360994397759104) 45%);
-     z-index: 120;
-     .brand {
-         width: 15%;
-         img {
-             width: 100%;
-         }
-     }
- 
-     .navbar-nav .nav-link.active,
-     .navbar-nav .show>.nav-link {
-         color: #c19f5f;
-     }
- 
-     .link {
-         color: white;
- 
-         span {
-             color: #c19f5f;
-         }
-     }
- 
- 
-     .icons {
-         width: 20%;
- 
-         .icon {
-             color: #c19f5f;
-             cursor: pointer;
-         }
-     .navbar-toggler {
-         color: #c19f5f;
- 
-     }
- }
- }
- }
+    .navbar {
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(6, 6, 6, 0.9360994397759104) 45%);
+        z-index: 120;
+        --bs-navbar-toggler-icon-bg: url("https://i.pinimg.com/originals/26/9d/d1/269dd16fa1f5ff51accd09e7e1602267.png");
+
+        .brand {
+            width: 15%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .navbar-nav .nav-link.active,
+        .navbar-nav .show>.nav-link {
+            color: #c19f5f;
+        }
+
+
+        .link {
+            color: white;
+            font-size: 18px;
+            span {
+                color: #c19f5f;
+            }
+        }
+.canvas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        .icons {
+            width: 24%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .icon {
+                color: #c19f5f;
+                cursor: pointer;
+
+                .dropdown {
+                    .dropdown-toggle::after {
+                        display: none;
+                    }
+
+                    .dropdown-basic {
+                        background-color: transparent;
+                        border: none;
+                        color: #c19f5f;
+
+                    }
+
+                    .dropdown-menu {
+                        background-color: #0F0E0F;
+
+                        .txt {
+                            color: #c19f5f;
+                            text-decoration: none;
+                            margin-left: 10px;
+                            background-color: transparent;
+
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                background-color: transparent;
+                border: none;
+
+                i {
+                    color: #c19f5f;
+                }
+            }
+
+        }
+    }
+}
+
+.header .navbar .icons .icon .dropdown .dropdown-menu{
+    left: -100%;
+}
+
+.dropdown-menu[data-bs-popper]{
+    left: -300%;
+    background-color: #0F0E0F;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-item.active{
+    background-color: white;
+}
+
+.offcanvas {
+    max-width: 100%;
+    background-color: #0F0E0F;
+    color: #c19f5f;
+    font-family: 'Cormorant', serif;
+    .icons {
+        width: 90%;
+        .icon {
+            color: #c19f5f;
+            cursor: pointer;
+            
+            .dropdown {
+                .dropdown-toggle::after {
+                    display: none;
+                }
+
+                .dropdown-basic {
+                    background-color: transparent;
+                    border: none;
+                    color: #c19f5f;
+
+                }
+
+                .dropdown-menu {
+                    background-color: #c19f5f;
+
+                    .txt {
+                        color: #0F0E0F;
+                        text-decoration: none;
+                        margin-left: 10px;
+                        background-color: transparent;
+
+                    }
+                }
+            }
+        }
+        .btn{
+            background-color: transparent;
+            border: none;
+            color: #c19f5f;
+        }
+        @media (max-width: 310px){
+            width: 100%;
+        }
+    }
+}

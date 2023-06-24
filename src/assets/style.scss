@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
+.loading{
+    background-color: #0F0E0F;
+    width: 100%;
+    height: 100vh;
+    .box{
+        img {
+            animation: img 6s linear infinite;
+        }
+        @keyframes img {
+            0% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(90deg);
+            }
+            50% {
+                transform: rotate(180deg);
+            }
+            75% {
+                transform: rotate(270deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    }
+}
+
 @import 'header';
 @import 'footer';
 @import 'home';
@@ -10,12 +38,12 @@
 @import 'cart';
 @import 'contact';
 @import 'blog';
+@import 'addBlog';
+@import 'editBlog';
 @import 'account';
 @import 'search';
 @import 'error';
 @import 'whislist';
+@import 'dashboard';
 @import 'media';
-
-
-
-
+@import 'mode';
