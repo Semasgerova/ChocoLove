@@ -2,7 +2,7 @@ const data = {
   homeShop: [
     {
       id: 1,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png311",
       title: "Truffle With Vanilla",
       price: 25
     },
