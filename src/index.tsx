@@ -21,7 +21,7 @@ ReactDOM.render(
  <div className="loading">
    <div className="box d-flex flex-column align-items-center justify-content-center text-center w-100 h-100">
   <img
-    src="http://crems.like-themes.com/wp-content/uploads/2019/06/404_crems.png"
+    src="https://raw.githubusercontent.com/Semasgerova/images/main/404_crems.png"
     alt=""
     width={400}
   /></div>

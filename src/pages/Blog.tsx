@@ -32,7 +32,7 @@ const Blog:React.FC<propType> = props => {
       <div className="bottom py-5">
         <div className="image">
           <img
-            src="http://crems.like-themes.com/wp-content/themes/crems/assets/images/grunge-dark-temp.png"
+            src="https://raw.githubusercontent.com/Semasgerova/images/main/grunge-dark-temp.png"
             alt=""
           />
         </div>

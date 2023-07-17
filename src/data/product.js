@@ -2,25 +2,25 @@ const data = {
   homeShop: [
     {
       id: 1,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png311",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-03-600x600.png",
       title: "Truffle With Vanilla",
       price: 25
     },
     {
       id: 2,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-06-600x600.png",
       title: "Milk Chocolate With Peanuts",
       price: 42.49
     },
     {
       id: 3,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-04-600x600.png",
       title: "Pastry Chef Fantasy",
       price: 13.49
     },
     {
       id: 4,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-05-600x600.png",
       title: "Almond Dark Chocolate",
       price: 12.99
     }
@@ -28,26 +28,26 @@ const data = {
   homeShopAz: [
     {
       id: 1,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-03-600x600.png",
       title: "Vanilli Truffle",
       price: 25
     },
     {
       id: 2,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-06-600x600.png",
       title: "Fıstıqlı Südlü Şokolad",
       price: 42.49,
       category: "Südlü"
     },
     {
       id: 3,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-04-600x600.png",
       title: "Pasta şefi fantezisi",
       price: 13.49
     },
     {
       id: 4,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-05-600x600.png",
       title: "Badamlı Tünd Şokolad",
       price: 12.99
     }
@@ -55,25 +55,25 @@ const data = {
   homeGallery: [
     {
       id: 5,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-01-e1597251883779-360x360.jpg"
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-01-e1597251883779-360x360.jpg"
     },
     {
       id: 6,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-02-480x480.jpg"
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-02-480x480.jpg"
     },
     {
       id: 7,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-03-480x480.jpg"
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-03-480x480.jpg"
     },
     {
       id: 8,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-04-480x480.jpg"
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-04-480x480.jpg"
     }
   ],
   products: [
     {
       id: 9,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-01-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-01-600x600.png",
       title: "Chocolate Covered Roast",
       price: 17.99,
       category: "Chocolate",
@@ -81,7 +81,7 @@ const data = {
     },
     {
       id: 10,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-02-600x600.png",
       title: "Honey Roasted Nuts",
       price: 19.99,
       category: "Deserts",
@@ -89,7 +89,7 @@ const data = {
     },
     {
       id: 11,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-03-600x600.png",
       title: "Truffle With Vanilla",
       price: 25,
       category: "Truffles",
@@ -97,7 +97,7 @@ const data = {
     },
     {
       id: 12,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-04-600x600.png",
       title: "Pastry Chef Fantasy",
       price: 13.49,
       category: "Belgian Waffles",
@@ -105,7 +105,7 @@ const data = {
     },
     {
       id: 13,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-05-600x600.png",
       title: "Almond Dark Chocolate",
       price: 12.99,
       category: "Dark Chocolate",
@@ -113,7 +113,7 @@ const data = {
     },
     {
       id: 14,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-07-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-07-600x600.png",
       title: "Fondant-Fruit Sweets",
       price: 3.49,
       category: "Deserts",
@@ -121,7 +121,7 @@ const data = {
     },
     {
       id: 15,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-06-600x600.png",
       title: "Milk Chocolate With Peanuts",
       price: 42.49,
       category: "Chocolate",
@@ -129,7 +129,7 @@ const data = {
     },
     {
       id: 16,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-12-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-12-600x600.png",
       title: "Fruit Praline",
       price: 3.49,
       category: "Deserts",
@@ -137,7 +137,7 @@ const data = {
     },
     {
       id: 17,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-11-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-11-600x600.png",
       title: "Drunken Cherry Chocolate",
       price: 42.49,
       category: "Chocolate",
@@ -145,7 +145,7 @@ const data = {
     },
     {
       id: 18,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-08-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-08-600x600.png",
       title: "Peppered Dark Chocolate",
       price: 25,
       category: "Dark Chocolate",
@@ -153,7 +153,7 @@ const data = {
     },
     {
       id: 19,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-10-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-10-600x600.png",
       title: "Dark Chocolate With Souffle",
       price: 11.49,
       category: "Dark Chocolate",
@@ -161,7 +161,7 @@ const data = {
     },
     {
       id: 20,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-09-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-09-600x600.png",
       title: "Chocolate Coffee Candy",
       price: 13.49,
       category: "Chocolate",
@@ -169,7 +169,7 @@ const data = {
     },
     {
       id: 21,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/16-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/16-1000x800.png",
       title: "Single Layer Chocolate Cake",
       price: 20.49,
       category: "Chocolate",
@@ -177,7 +177,7 @@ const data = {
     },
     {
       id: 22,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/13-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/13-1000x800.png",
       title: "Chocolate Donuts With Sprinkles",
       price: 49.49,
       category: "Deserts",
@@ -185,7 +185,7 @@ const data = {
     },
     {
       id: 23,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/6-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/6-1000x800.png",
       title: "Almond Truffle",
       price: 25.49,
       category: "Truffles",
@@ -193,7 +193,7 @@ const data = {
     },
     {
       id: 24,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/19-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/19-1000x800.png",
       title: "Chocolate Truffle Ganache",
       price: 45.99,
       category: "Truffles",
@@ -201,7 +201,7 @@ const data = {
     },
     {
       id: 25,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/17-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/17-1000x800.png",
       title: "Chocolate Truffle",
       price: 20.49,
       category: "Truffles",
@@ -209,7 +209,7 @@ const data = {
     },
     {
       id: 26,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/18-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/18-1000x800.png",
       title: "Chocolate Truffle",
       price: 35.99,
       category: "Truffles",
@@ -217,7 +217,7 @@ const data = {
     },
     {
       id: 27,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/9-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/9-1000x800.png",
       title: "Chocolate Flavored Cup Cake",
       price: 47.89,
       category: "Belgian Waffles",
@@ -225,7 +225,7 @@ const data = {
     },
     {
       id: 28,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/8-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/8-1000x800.png",
       title: "Single Layer Chocolate Cake",
       price: 40.59,
       category: "Chocolate",
@@ -233,7 +233,7 @@ const data = {
     },
     {
       id: 29,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/10-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/10-1000x800.png",
       title: "Chocolate Chips Dessert Cheese Ball",
       price: 20.99,
       category: "Dessert",
@@ -241,7 +241,7 @@ const data = {
     },
     {
       id: 30,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/11-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/11-1000x800.png",
       title: "Chocolate Chips Dessert",
       price: 23.49,
       category: "Dessert",
@@ -249,7 +249,7 @@ const data = {
     },
     {
       id: 31,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/14-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/14-1000x800.png",
       title: "Stroopwafels",
       price: 33.99,
       category: "Belgian Waffles",
@@ -259,7 +259,7 @@ const data = {
   productsAz: [
     {
       id: 9,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-01-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-01-600x600.png",
       title: "Şokoladlı qovrulmuş",
       price: 17.99,
       category: "Şokolad",
@@ -267,7 +267,7 @@ const data = {
     },
     {
       id: 10,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-02-600x600.png",
       title: "Bal Qovrulmuş Fındıq",
       price: 19.99,
       category: "Desertlər",
@@ -275,7 +275,7 @@ const data = {
     },
     {
       id: 11,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-03-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-03-600x600.png",
       title: "Vanilli Truffle",
       price: 25,
       category: "Trufflelər",
@@ -283,7 +283,7 @@ const data = {
     },
     {
       id: 12,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-04-600x600.png",
       title: "Xəmir aşpazı fantaziyası",
       price: 13.49,
       category: "Belçika vafliləri",
@@ -291,7 +291,7 @@ const data = {
     },
     {
       id: 13,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-05-600x600.png",
       title: "Badam Tünd Şokolad",
       price: 12.99,
       category: "Tünd şokolad",
@@ -299,7 +299,7 @@ const data = {
     },
     {
       id: 14,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-07-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-07-600x600.png",
       title: "Fondant-Meyvə Şirniyyatları",
       price: 3.49,
       category: "Desertlər",
@@ -307,7 +307,7 @@ const data = {
     },
     {
       id: 15,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-06-600x600.png",
       title: "Fıstıqlı Südlü Şokolad",
       price: 42.49,
       category: "Şokolad",
@@ -315,7 +315,7 @@ const data = {
     },
     {
       id: 16,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-12-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-12-600x600.png",
       title: "Pralin meyvəsi",
       price: 3.49,
       category: "Desertlər",
@@ -323,7 +323,7 @@ const data = {
     },
     {
       id: 17,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-11-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-11-600x600.png",
       title: "Sərxoş Albalı Şokolad",
       price: 42.49,
       category: "Şokolad",
@@ -331,7 +331,7 @@ const data = {
     },
     {
       id: 18,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-08-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-08-600x600.png",
       title: "Bibərli Tünd Şokolad",
       price: 25,
       category: "Tünd şokolad",
@@ -339,7 +339,7 @@ const data = {
     },
     {
       id: 19,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-10-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-10-600x600.png",
       title: "Sufle ilə Tünd Şokolad",
       price: 11.49,
       category: "Tünd şokolad",
@@ -347,7 +347,7 @@ const data = {
     },
     {
       id: 20,
-      image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-09-600x600.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/shop-09-600x600.png",
       title: "Şokoladlı qəhvə konfeti",
       price: 13.49,
       category: "Şokolad",
@@ -355,7 +355,7 @@ const data = {
     },
     {
       id: 21,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/16-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/16-1000x800.png",
       title: "Bir qat şokoladlı tort",
       price: 20.49,
       category: "Şokolad",
@@ -363,7 +363,7 @@ const data = {
     },
     {
       id: 22,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/13-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/13-1000x800.png",
       title: "Çipləri ilə şokoladlı donuts",
       price: 49.49,
       category: "Desertlər",
@@ -371,7 +371,7 @@ const data = {
     },
     {
       id: 23,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/6-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/6-1000x800.png",
       title: "Badam Truffle",
       price: 25.49,
       category: "Trufflelər",
@@ -379,7 +379,7 @@ const data = {
     },
     {
       id: 24,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/19-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/19-1000x800.png",
       title: "Şokoladlı Truffle Qanache",
       price: 45.99,
       category: "Trufflelər",
@@ -387,7 +387,7 @@ const data = {
     },
     {
       id: 25,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/17-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/17-1000x800.png",
       title: "Şokoladlı Truffle",
       price: 20.49,
       category: "Trufflelər",
@@ -395,7 +395,7 @@ const data = {
     },
     {
       id: 26,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/18-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/18-1000x800.png",
       title: "Şokoladlı Truffle",
       price: 35.99,
       category: "Trufflelər",
@@ -403,7 +403,7 @@ const data = {
     },
     {
       id: 27,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/9-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/9-1000x800.png",
       title: "Şokolad Ətirli Kubok Tortu",
       price: 47.89,
       category: "Belçika vafliləri",
@@ -411,7 +411,7 @@ const data = {
     },
     {
       id: 28,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/8-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/8-1000x800.png",
       title: "Bir qat şokoladlı tort",
       price: 40.59,
       category: "Şokolad",
@@ -419,7 +419,7 @@ const data = {
     },
     {
       id: 29,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/10-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/10-1000x800.png",
       title: "Şokolad çipsli desert pendir topu",
       price: 20.99,
       category: "Desertlər",
@@ -427,7 +427,7 @@ const data = {
     },
     {
       id: 30,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/11-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/11-1000x800.png",
       title: "Şokolad çipsli desert",
       price: 23.49,
       category: "Desertlər",
@@ -435,7 +435,7 @@ const data = {
     },
     {
       id: 31,
-      image: "https://opencart.workdo.io/chocolate/image/cache/catalog/product/14-1000x800.png",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/14-1000x800.png",
       title: "Stroopwafel'lər",
       price: 33.99,
       category: "Belçika vafliləri",
@@ -445,7 +445,7 @@ const data = {
   chef: [
     {
       id: 32,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_01.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_01.jpg",
       name: "John Portman",
       specialty: "CONFECTIONER",
       about: "John Portman Mitzewich (born July 11, 1995), more commonly known as 'Chef John', is an American chef known for publishing instructional cooking videos on the blog and YouTube channel 'Food Wishes', with over 1 billion views on his channel.",
@@ -454,7 +454,7 @@ const data = {
     },
     {
       id: 33,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_02.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_02.jpg",
       name: "Kelley Miles",
       specialty: "PASTRY CHEF",
       about: "Kelley Miles (born May 15, 1985), better known as 'Chef Miles', is an American chef known for posting educational cooking videos on his blog 'Food', which has 5 billion views on his channel, and on his YouTube channel.",
@@ -463,7 +463,7 @@ const data = {
     },
     {
       id: 34,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_03.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_03.jpg",
       name: "Sherman Warner",
       specialty: "CONFECTIONER",
       about: "Sherman Warner, born May 15, 1997, is an American chef known for posting instructional cooking videos on his blog 'Warner', which has over 2 billion views on his channel, and on his YouTube channel.",
@@ -472,7 +472,7 @@ const data = {
     },
     {
       id: 35,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_04.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_04.jpg",
       name: "Denis Green",
       specialty: "BARISTA",
       about: "Denis Green, born May 15, 1991, is an American chef known for posting instructional cooking videos on his blog 'Green', which has 5 billion views on his channel, and on his YouTube channel.",
@@ -483,7 +483,7 @@ const data = {
   chefAz: [
     {
       id: 32,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_01.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_01.jpg",
       name: "Con Portman",
       specialty: "ŞİRNİYYATÇI",
       about: "Con Portman (11 iyul 1995-ci ildə anadan olub), daha çox 'Aşpaz Con' kimi tanınır, öz kanalında 1 milyard baxışı olan 'Food Wishes' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
@@ -492,7 +492,7 @@ const data = {
     },
     {
       id: 33,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_02.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_02.jpg",
       name: "Kelley Miles",
       specialty: "Xənmət Aşbazı",
       about: "Kelley Miles (15 may 1985-ci ildə anadan olub), daha çox 'Aşpaz Miles' kimi tanınır, öz kanalında 5 milyard baxışı olan 'Food' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
@@ -501,7 +501,7 @@ const data = {
     },
     {
       id: 34,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_03.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_03.jpg",
       name: "Sherman Warner",
       specialty: "ŞİRNİYYATÇI",
       about: "Sherman Warner 15 may 1997-ci ildə anadan olub, öz kanalında 2 milyard baxışı olan 'Warner' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",
@@ -510,7 +510,7 @@ const data = {
     },
     {
       id: 35,
-      image: "http://crems.like-themes.com/wp-content/uploads/2017/09/team_04.jpg",
+      image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_04.jpg",
       name: "Denis Green",
       specialty: "BARISTA",
       about: "Denis Green 15 may 1991-ci ildə anadan olub, öz kanalında 5 milyard baxışı olan 'Green' bloqunda və YouTube kanalında öyrədici yemək videoları dərc etməklə tanınan amerikalı aşpazdır.",

@@ -52,7 +52,7 @@ const Home = () => {
         >
           <SwiperSlide className="swp">
             <img
-              src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-01.jpg"
+              src="https://raw.githubusercontent.com/Semasgerova/images/main/slider-overlay-01.jpg"
               alt=""
             />
             <div className="text text-center d-flex flex-column justify-content-center align-items-center">
@@ -95,7 +95,7 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="swp">
             <img
-              src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-02.jpg"
+              src="https://raw.githubusercontent.com/Semasgerova/images/main/slider-overlay-02.jpg"
               alt=""
             />
             <div className="text text-center d-flex flex-column justify-content-center align-items-center">
@@ -138,7 +138,7 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="swp">
             <img
-              src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-03.jpg"
+              src="https://raw.githubusercontent.com/Semasgerova/images/main/slider-overlay-03.jpg"
               alt=""
             />
             <div className="text text-center d-flex flex-column justify-content-center align-items-center">
@@ -181,7 +181,7 @@ const Home = () => {
           </SwiperSlide>
           <SwiperSlide className="swp">
             <img
-              src="http://crems.like-themes.com/wp-content/uploads/2019/06/slider-overlay-04.jpg"
+              src="https://raw.githubusercontent.com/Semasgerova/images/main/slider-overlay-04.jpg"
               alt=""
             />
             <div className="text text-center d-flex flex-column justify-content-center align-items-center">
@@ -227,7 +227,7 @@ const Home = () => {
       <div className="aboutSec">
         <div className="img top-img">
           <img
-            src="http://crems.like-themes.com/wp-content/uploads/2020/07/grunge-dark-temp.png"
+            src="https://raw.githubusercontent.com/Semasgerova/images/main/grunge-dark-temp.png"
             alt=""
           />
         </div>
@@ -344,7 +344,7 @@ const Home = () => {
         </Container>
         <div className="img bottom-img">
           <img
-            src="http://crems.like-themes.com/wp-content/uploads/2020/07/grunge-dark-rev-temp.png"
+            src="https://raw.githubusercontent.com/Semasgerova/images/main/grunge-dark-rev-temp.png"
             alt=""
           />
         </div>
@@ -545,13 +545,13 @@ const Home = () => {
         <Row className="m-0">
           <Col lg={6} className="img p-0 cocoa">
             <img
-              src="http://crems.like-themes.com/wp-content/uploads/2019/06/sign-bg.jpg"
+              src="https://raw.githubusercontent.com/Semasgerova/images/main/sign-bg.jpg"
               alt=""
             />
           </Col>
           <Col md={12} lg={6} className="img p-0">
             <img
-              src="http://crems.like-themes.com/wp-content/uploads/2020/07/cocoa-02.png"
+              src="https://raw.githubusercontent.com/Semasgerova/images/main/cocoa-02.png"
               alt=""
             />
             {lang==="az"?
@@ -579,7 +579,7 @@ const Home = () => {
         </Row>
         <div className="image" data-aos="fade-right">
           <img
-            src="http://crems.like-themes.com/wp-content/uploads/2020/07/sign-person.png"
+            src="https://raw.githubusercontent.com/Semasgerova/images/main/sign-person.png"
             alt=""
           />
         </div>

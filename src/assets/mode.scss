@@ -51,51 +51,7 @@
                 font-size: 30px;
             }
 
-            // .swp:nth-child(1) {
-
-            //     background: linear-gradient(rgb(15, 14, 15, 0.5),
-            //             rgb(15, 14, 15, 0.6)), url('https://images.unsplash.com/photo-1606310616021-f566a6e9cb07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
-            //     background-size: cover;
-            // }
-
-            // .swp:nth-child(2) {
-
-            //     background: linear-gradient(rgb(15, 14, 15, 0.5),
-            //             rgb(15, 14, 15, 0.6)), url('https://images.unsplash.com/photo-1548741487-18d363dc4469?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
-            //     background-size: cover;
-            // }
-
-            // .swp:nth-child(3) {
-
-            //     background: linear-gradient(rgb(15, 14, 15, 0.5),
-            //             rgb(15, 14, 15, 0.6)), url('https://images.unsplash.com/photo-1599599810769-bcde5a160d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80');
-            //     background-size: cover;
-            // }
-        
-            // .swp:nth-child(4) {
-
-            //     background: linear-gradient(rgb(15, 14, 15, 0.5),
-            //             rgb(15, 14, 15, 0.6)), url('https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80');
-            //     background-size: cover;
-            // }
-
             .swp {
-                // position: relative;
-                // &::after {
-                //     content: "";
-                //     background-image: url('http://crems.like-themes.com/wp-content/uploads/2020/07/grunge-dark-rev-temp.png');
-                //     position: absolute;
-                //     bottom: -1%;
-                //     left: 0;
-                //     right: 0;
-                //     z-index: 1;
-                //     height: 20px;
-                //     background-size: contain;
-                //     background-repeat: repeat-x;
-                // }
-                // img {
-                //     display: none;
-                // }
 
                 .text {
                     .txt {
@@ -137,19 +93,6 @@
         }
         .aboutSec {
             background-color: #e7d7c1;
-            // position: relative;
-            // &::after {
-            //     content: "";
-            //     background-image: url('https://cdn.shopify.com/s/files/1/0267/5979/0615/files/divider_1_1920X_36751325-7c7a-4790-bcd2-7080582c6ca6_1920X.png?v=1625027510');
-            //     position: absolute;
-            //     bottom: -1%;
-            //     left: 0;
-            //     right: 0;
-            //     z-index: 1;
-            //     height: 20px;
-            //     background-size: contain;
-            //     background-repeat: repeat-x;
-            // }
 
             .top-img {
                 display: none;
@@ -339,15 +282,6 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            // .head{
-            //     p{
-            //         color: #694400;
-            //         font-weight: bold;
-            //     }
-            //     h1{
-            //         color: #0F0E0F;
-            //     }
-            // }
             .boxes{
                  .box{
                        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;

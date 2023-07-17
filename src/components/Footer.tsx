@@ -72,7 +72,7 @@ const Footer = () => {
             <li className="d-flex align-items-center mt-3">
               <div className="img me-3">
                 <img
-                  src="http://crems.like-themes.com/wp-content/uploads/2019/06/blog_01-140x140.jpg"
+                  src="https://raw.githubusercontent.com/Semasgerova/images/main/blog_01-140x140.jpg"
                   alt=""
                 />
               </div>
@@ -87,7 +87,7 @@ const Footer = () => {
             <li className="d-flex align-items-center my-3">
               <div className="img me-3">
                 <img
-                  src="http://crems.like-themes.com/wp-content/uploads/2019/06/blog_02-140x140.jpg"
+                  src="https://raw.githubusercontent.com/Semasgerova/images/main/blog_02-140x140.jpg"
                   alt=""
                 />
               </div>

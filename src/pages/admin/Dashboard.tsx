@@ -33,7 +33,7 @@ const Dashboard = () => {
       <div className="bottom">
         <div className="top-img">
           <img
-            src="http://crems.like-themes.com/wp-content/themes/crems/assets/images/grunge-dark-temp.png"
+            src="https://raw.githubusercontent.com/Semasgerova/images/main/grunge-dark-temp.png"
             alt=""
           />
         </div>

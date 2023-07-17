@@ -52,7 +52,7 @@ const About = () => {
       <div className="sweet py-5">
         <div className="img">
           <img
-            src="http://crems.like-themes.com/wp-content/themes/crems/assets/images/grunge-dark-temp.png"
+            src="https://raw.githubusercontent.com/Semasgerova/images/main/grunge-dark-temp.png"
             alt=""
           />
         </div>
@@ -97,13 +97,13 @@ const About = () => {
               <Row className="g-5">
                 <Col sm={12} md={6}>
                   <img
-                    src="http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-01-e1597251883779.jpg"
+                    src="https://raw.githubusercontent.com/Semasgerova/images/main/gallery-01-e1597251883779.jpg"
                     alt=""
                   />
                 </Col>
                 <Col sm={12} md={6}>
                   <img
-                    src="http://crems.like-themes.com/wp-content/uploads/2019/06/gallery-02-1536x1536.jpg"
+                    src="https://raw.githubusercontent.com/Semasgerova/images/main/gallery-02-1536x1536.jpg"
                     alt=""
                   />
                 </Col>

@@ -71,7 +71,7 @@ const Admin = () => {
       </div>
       <div className="login">
         <img
-          src="http://crems.like-themes.com/wp-content/themes/crems/assets/images/grunge-dark-temp.png"
+          src="https://raw.githubusercontent.com/Semasgerova/images/main/grunge-dark-temp.png"
           alt=""
         />
         <div className="d-flex align-items-center justify-content-center flex-column py-5">
